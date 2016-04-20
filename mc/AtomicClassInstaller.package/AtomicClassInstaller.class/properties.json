@@ -1,0 +1,15 @@
+{
+	"category" : "AtomicClassInstaller-AtomicClassInstaller",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"innerClassInstaller",
+		"changedClasses" ],
+	"name" : "AtomicClassInstaller",
+	"pools" : [
+		 ],
+	"super" : "AbstractClassInstaller",
+	"type" : "normal" }

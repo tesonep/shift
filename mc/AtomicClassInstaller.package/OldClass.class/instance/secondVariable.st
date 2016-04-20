@@ -1,0 +1,3 @@
+accessing
+secondVariable
+	^ secondVariable

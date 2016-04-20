@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"commit" : "PabloTesone 4/20/2016 15:25",
+		"make:" : "PabloTesone 4/20/2016 15:24",
+		"new" : "PabloTesone 4/20/2016 15:25",
+		"reset" : "PabloTesone 4/20/2016 16:13",
+		"rollback" : "PabloTesone 4/20/2016 15:26",
+		"uniqueInstance" : "PabloTesone 4/20/2016 15:25" },
+	"instance" : {
+		"basicClassDefinitionChangedFrom:to:using:" : "PabloTesone 4/20/2016 14:11",
+		"classAt:ifAbsent:" : "PabloTesone 4/20/2016 14:00",
+		"classDefinitionChangedFrom:to:by:" : "PabloTesone 4/20/2016 16:08",
+		"commit" : "PabloTesone 4/20/2016 17:26",
+		"copyMethodsFrom:to:using:" : "PabloTesone 4/20/2016 14:10",
+		"initialize" : "PabloTesone 4/20/2016 16:08",
+		"innerClassInstaller" : "PabloTesone 4/20/2016 14:00",
+		"migrateClasses:to:using:" : "PabloTesone 4/20/2016 16:42",
+		"migrateObjectsFrom:to:" : "PabloTesone 4/20/2016 17:07",
+		"recategorize:to:" : "PabloTesone 4/20/2016 16:43",
+		"slotsChangedFrom:to:by:" : "PabloTesone 4/20/2016 14:05" } }

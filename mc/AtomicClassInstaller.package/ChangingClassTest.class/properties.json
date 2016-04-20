@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ChangingClassTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

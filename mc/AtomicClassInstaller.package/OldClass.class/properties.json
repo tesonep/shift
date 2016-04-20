@@ -1,0 +1,16 @@
+{
+	"category" : "AtomicClassInstaller-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"firstVariable",
+		"secondVariable",
+		"thirdVariable" ],
+	"name" : "OldClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

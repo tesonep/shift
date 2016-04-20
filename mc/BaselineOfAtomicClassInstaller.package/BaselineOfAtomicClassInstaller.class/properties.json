@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfAtomicClassInstaller",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfAtomicClassInstaller",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
