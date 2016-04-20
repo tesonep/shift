@@ -22,6 +22,7 @@ install:
   - wget -O - get.pharo.org/50+vm | bash
   - ./scripts/install-packages.sh
 
+
 script:
   - ./pharo Pharo.image test --fail-on-failure "AtomicClassInstaller"
 
