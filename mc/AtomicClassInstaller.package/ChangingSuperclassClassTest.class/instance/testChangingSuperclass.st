@@ -16,7 +16,6 @@ testChangingSuperclass
 	self deny: (OldClass subclasses includes: class).
 	self assert: (Object subclasses includes: OldClass).
 	
-	self halt.
 	AtomicClassInstaller commit.
 
 	self assert: class superclass equals: OldClass.
