@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"innerClassInstaller",
-		"changedClasses" ],
+		"changedClasses",
+		"newClasses",
+		"changedSubclassArray",
+		"newEnvironment" ],
 	"name" : "AtomicClassInstaller",
 	"pools" : [
 		 ],

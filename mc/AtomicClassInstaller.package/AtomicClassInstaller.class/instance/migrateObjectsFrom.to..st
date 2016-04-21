@@ -1,11 +1,11 @@
-notifications
+migrating
 migrateObjectsFrom: oldClass to: newClass
 	| oldInstances variable instSize result |
 	
 	oldInstances := oldClass allInstances asArray.
 		 	
 	oldInstances isEmpty
-		ifTrue: [ ^ nil ].	"no instances to convert"
+		ifTrue: [ ^ #() ].	"no instances to convert"
 	newClass isMeta ifTrue:
 		[(oldInstances size = 1
 		  and: [newClass soleInstance class == newClass

@@ -24,6 +24,25 @@ commit
 
 		changedClasses removeAll.
 		objectsToMigrate removeAll.
+			
+		changedSubclassArray valuesDo: [ :kv |
+				(kv key instVarNamed:#subclasses) ifNil:[ kv key subclasses:#() ].			
+				oldObjects add: (kv key instVarNamed:#subclasses).
+				newObjects add: kv value.
+		].
+		
+		changedSubclassArray removeAll.
+		
+		newEnvironment := SystemDictionary new addAll:Smalltalk globals.
+		
+		newClasses do:[ :cls | 
+			newEnvironment at: cls name put: cls.
+		].
+		
+		newClasses removeAll.
+		
+		oldObjects add:Smalltalk globals.
+		newObjects add:newEnvironment.
 		
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
 	] valueUnpreemptively.
