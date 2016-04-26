@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "OtherClass",
+		"firstVariable" ],
+	"name" : "OldComparableClass",
 	"pools" : [
 		 ],
 	"super" : "Object",
+	"traitcomposition" : "TComparable",
 	"type" : "normal" }

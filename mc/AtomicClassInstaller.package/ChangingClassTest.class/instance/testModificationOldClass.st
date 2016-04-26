@@ -11,7 +11,7 @@ testModificationOldClass
 				name: #OldClass;
 				slots: #(#firstVariable #secondVariable #thirdVariable);
 				category: 'AtomicClassInstaller-Tests' ].
-					
+								
 	self assert: OldClass ~= class.
 	self assert: OldClass methods size equals: class methods size.
 	self assert: (OldClass methods allSatisfy: [ :mOld | class methods anySatisfy: [:mNew | mOld selector = mNew selector ]]).

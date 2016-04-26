@@ -1,11 +1,12 @@
 as yet unclassified
 testCreationOfNewClass
-	| class obj1 |
+	| class |
 	
 	class := AtomicClassInstaller
 		make: [ :builder | 
 			builder
 				name: #NewClass;
+				superclass: (builder classNamed: #Object);
 				slots: #(#a #b);
 				category: 'AtomicClassInstaller-Tests' ].
 	
