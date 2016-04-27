@@ -24,5 +24,5 @@ install:
 
 
 script:
-  - ./pharo Pharo.image test --fail-on-failure "AtomicClassInstaller"
+  - ./pharo Pharo.image test --fail-on-failure "AtomicClassInstaller" "Slot-Tests"
 
