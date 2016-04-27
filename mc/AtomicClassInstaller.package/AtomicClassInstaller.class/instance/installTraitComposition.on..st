@@ -4,8 +4,6 @@ installTraitComposition: aTraitComposition on: aClass
 	(aClass hasTraitComposition not and: [aTraitComposition isEmpty]) ifTrue: [^self].
 	aTraitComposition assertValidUser: aClass.
 
-	self halt.
-
 	oldComposition := aClass traitComposition.
 	aClass traitComposition: aTraitComposition.
 	aClass applyChangesOfNewTraitCompositionReplacing: oldComposition.

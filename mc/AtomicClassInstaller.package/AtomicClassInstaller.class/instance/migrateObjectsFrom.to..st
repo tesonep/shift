@@ -4,13 +4,9 @@ migrateObjectsFrom: oldClass to: newClass
 	
 	oldInstances := oldClass allInstances asArray.
 		 	
-	oldInstances isEmpty
-		ifTrue: [ ^ #() ].	"no instances to convert"
-	newClass isMeta ifTrue:
-		[(oldInstances size = 1
-		  and: [newClass soleInstance class == newClass
-				or: [newClass soleInstance class == oldClass]]) ifFalse:
-			[^self error: 'Metaclasses can only have one instance']].
+	oldInstances isEmpty ifTrue: [ ^ #() ].	"no instances to convert"
+		
+	newClass isMeta ifTrue:[^#()].
 	
 	variable := newClass isVariable.
 	instSize := newClass instSize.

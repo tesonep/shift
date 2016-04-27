@@ -2,6 +2,7 @@
 	"category" : "AtomicClassInstaller-Tests",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "TComparable classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",

@@ -10,10 +10,7 @@ commit
 		changedClasses valuesDo: [ :a | 
 			oldObjects add: a key. 
 			newObjects add: a value.
-			
-			oldObjects add: a key class.
-			newObjects add: a value class.
-			
+						
 			objectsToMigrate addAll:(self migrateObjectsFrom: a key to: a value). 
 		 ].
 
@@ -24,15 +21,7 @@ commit
 
 		changedClasses removeAll.
 		objectsToMigrate removeAll.
-			
-		changedSubclassArray valuesDo: [ :kv |
-				(kv key instVarNamed:#subclasses) ifNil:[ kv key subclasses:#() ].			
-				oldObjects add: (kv key instVarNamed:#subclasses).
-				newObjects add: kv value.
-		].
-		
-		changedSubclassArray removeAll.
-		
+					
 		newEnvironment := SystemDictionary new addAll:Smalltalk globals.
 		
 		newClasses do:[ :cls | 
@@ -43,8 +32,10 @@ commit
 		
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
-		
+						
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
+		"(newEnvironment at:#OtherClass) == (newObjects at: 5)"
+		  
 	] valueUnpreemptively.
 
 	HashedCollection allSubInstancesDo:#rehash. 

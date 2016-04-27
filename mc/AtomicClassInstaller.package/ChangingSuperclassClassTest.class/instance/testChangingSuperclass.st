@@ -20,7 +20,8 @@ testChangingSuperclass
 	self assert: (Object subclasses includes: OldClass).
 	
 	AtomicClassInstaller commit.
-
+		
+	self assert: OtherClass equals: class.
 	self assert: OtherClass superclass equals: OldClass.
 	self assert: (OldClass subclasses includes: OtherClass).
 	self deny: (Object subclasses includes: OtherClass).

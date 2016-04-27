@@ -7,8 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"firstVariable",
-		"secondVariable",
-		"thirdVariable" ],
+		"secondVariable" ],
 	"name" : "OldClass",
 	"pools" : [
 		 ],

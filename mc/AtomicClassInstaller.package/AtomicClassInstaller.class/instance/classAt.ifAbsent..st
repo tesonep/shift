@@ -6,6 +6,8 @@ classAt: name ifAbsent: aBlockClosure
 			
 			anOldClass := self innerClassInstaller environment at:name. 
 			aNewClass := self copyClass: anOldClass.
+			
 			changedClasses at: aNewClass name put: anOldClass -> aNewClass.
+			changedClasses at: aNewClass class name put: anOldClass class -> aNewClass class.			
 			^aNewClass.  
 	].
