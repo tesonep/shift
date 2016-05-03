@@ -2,6 +2,7 @@ migrating
 migrateObjectsFrom: oldClass to: newClass
 	| oldInstances variable instSize result |
 	
+	oldClass isTrait ifTrue:[ ^ #()].
 	oldInstances := oldClass allInstances asArray.
 		 	
 	oldInstances isEmpty ifTrue: [ ^ #() ].	"no instances to convert"

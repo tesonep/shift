@@ -6,4 +6,3 @@ setUp
 	self buildOldClass.
 	self buildOldComparableClass.
 	self buildOtherClass.
-	
