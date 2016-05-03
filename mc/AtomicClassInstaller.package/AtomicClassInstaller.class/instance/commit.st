@@ -32,9 +32,8 @@ commit
 		
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
-						
+								
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
-		"(newEnvironment at:#OtherClass) == (newObjects at: 5)"
 		  
 	] valueUnpreemptively.
 

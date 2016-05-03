@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"baseSlotRead:" : "MarcusDenker 7/31/2015 14:52",
+		"calculateOffset:" : "MarcusDenker 4/1/2015 16:14",
+		"emitStore:" : "MarcusDenker 7/28/2015 10:03",
+		"emitValue:" : "MarcusDenker 7/28/2015 10:00",
+		"installingIn:" : "MarcusDenker 4/1/2015 16:11",
+		"layoutChanged:" : "NicolaiHess 10/30/2015 22:27",
+		"offset" : "MarcusDenker 4/1/2015 15:38",
+		"read:" : "MarcusDenker 7/31/2015 14:52",
+		"todo" : "MarcusDenker 7/28/2015 10:05",
+		"write:to:" : "MarcusDenker 7/31/2015 14:52" } }

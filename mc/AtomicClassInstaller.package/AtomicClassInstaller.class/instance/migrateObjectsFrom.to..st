@@ -12,6 +12,9 @@ migrateObjectsFrom: oldClass to: newClass
 	variable := newClass isVariable.
 	instSize := newClass instSize.
 	
+	(((variable = oldClass isVariable) and:[ instSize = oldClass instSize ]) 
+		and:[ oldClass slots = newClass slots ]) ifTrue:[^#()].
+	
 	result := Array new: oldInstances size.
 	
 	1 to: oldInstances size do: [ :i | | old new | 

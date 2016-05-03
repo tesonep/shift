@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"emitStore:" : "GuillermoPolito 2/26/2015 18:40",
+		"emitValue:" : "GuillermoPolito 2/26/2015 18:38",
+		"initialize:" : "GuillermoPolito 2/26/2015 18:36",
+		"read:" : "GuillermoPolito 2/26/2015 18:37",
+		"wantsInitalization" : "GuillermoPolito 2/26/2015 18:37",
+		"write:to:" : "GuillermoPolito 2/26/2015 18:36" } }

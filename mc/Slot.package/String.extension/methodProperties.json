@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asClassVariable" : "MarcusDenker 11/6/2015 14:48",
+		"asSlot" : "MarcusDenker 11/6/2015 14:48",
+		"asSlotCollection" : "HenrikNergaard 12/2/2015 12:34",
+		"asValidInstVarName" : "HenrikNergaard 12/2/2015 12:40",
+		"inviolateInstanceVariableNames" : "BenjaminVanRyseghem 11/24/2010 14:41",
+		"isLegalClassName" : "MarcusDenker 6/2/2015 16:31",
+		"isLegalInstVarName" : "BenjaminVanRyseghem 11/24/2010 14:41" } }

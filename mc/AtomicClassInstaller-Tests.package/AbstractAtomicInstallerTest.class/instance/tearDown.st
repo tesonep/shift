@@ -1,7 +1,8 @@
 running
 tearDown
-	self environment at:#OldComparableClass ifPresent:[:x | x removeFromSystem].
-	self environment at:#OldClass ifPresent:[:x | x removeFromSystem].
-	self environment at:#OtherClass ifPresent:[:x | x removeFromSystem].
+	self removeClassIfExists:#NewClassWithTrait.
+	self removeClassIfExists:#OldComparableClass.
+	self removeClassIfExists:#OldClass.
+	self removeClassIfExists:#OtherClass.
 	
 	super tearDown.
