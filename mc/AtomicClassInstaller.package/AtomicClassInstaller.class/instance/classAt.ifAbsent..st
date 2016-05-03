@@ -1,8 +1,5 @@
 accessing
 classAt: name ifAbsent: aBlockClosure 
-
-	(name = #Trait) ifTrue:[self halt].
-
 	newClasses detect:[:cls | cls name = name] ifFound:[:cls | ^ cls ].
 	changedClasses detect: [ :kv | kv key name = name ] ifFound:[ :kv | ^ kv value ] ifNone:[ | anOldClass aNewClass |
 			(name endsWith: ' classTrait') ifTrue:[ |traitName| 

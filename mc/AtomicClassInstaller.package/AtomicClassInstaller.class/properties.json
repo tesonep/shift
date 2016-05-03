@@ -10,7 +10,11 @@
 		"changedClasses",
 		"newClasses",
 		"changedSubclassArray",
-		"newEnvironment" ],
+		"newEnvironment",
+		"oldObjects",
+		"newObjects",
+		"objectsToMigrate",
+		"operations" ],
 	"name" : "AtomicClassInstaller",
 	"pools" : [
 		 ],

@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-Operations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"installer" ],
+	"name" : "AtomicClassInstallerOperation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

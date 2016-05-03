@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-Operations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RemoveUserOfTrait",
+	"pools" : [
+		 ],
+	"super" : "TraitUserOperation",
+	"type" : "normal" }

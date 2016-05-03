@@ -1,7 +1,5 @@
 actions
-commit
-	| oldObjects newObjects objectsToMigrate|
-	
+commit	
 	oldObjects := OrderedCollection new.
 	newObjects := OrderedCollection new.
 	objectsToMigrate := OrderedCollection new.
@@ -32,9 +30,9 @@ commit
 		
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
-								
+		
+		operations do:#impact.
+									
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
 		  
 	] valueUnpreemptively.
-
-	HashedCollection allSubInstancesDo:#rehash. 

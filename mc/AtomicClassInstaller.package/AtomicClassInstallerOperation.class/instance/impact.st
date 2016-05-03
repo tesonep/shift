@@ -1,0 +1,3 @@
+accessing
+impact
+	^ self subclassResponsibility.

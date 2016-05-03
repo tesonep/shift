@@ -1,0 +1,15 @@
+{
+	"category" : "AtomicClassInstaller-Operations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modifiedTrait",
+		"modifiedClass" ],
+	"name" : "TraitUserOperation",
+	"pools" : [
+		 ],
+	"super" : "AtomicClassInstallerOperation",
+	"type" : "normal" }

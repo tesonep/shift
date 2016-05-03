@@ -9,5 +9,5 @@ installTraitComposition: aTraitComposition on: aClass
 	aClass traitComposition: aTraitComposition.
 	aClass applyChangesOfNewTraitCompositionReplacing: oldComposition.
 
-	oldComposition traits do: [:each | self removeUser: aClass fromTrait: each].
-	aTraitComposition traits do: [:each | self addUser: aClass ToTrait: each]
+	oldComposition traits do: [:each | RemoveUserOfTrait on:self user: aClass trait: each].
+	aTraitComposition traits do: [:each | AddUserOfTrait on:self user: aClass trait: each]
