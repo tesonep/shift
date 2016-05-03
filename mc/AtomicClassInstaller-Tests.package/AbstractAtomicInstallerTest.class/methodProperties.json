@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildOldClass" : "PabloTesone 5/3/2016 11:35",
+		"buildOldComparableClass" : "PabloTesone 5/3/2016 11:36",
+		"buildOtherClass" : "PabloTesone 5/3/2016 11:51",
+		"environment" : "PabloTesone 5/3/2016 11:33",
+		"oldClass" : "PabloTesone 5/3/2016 11:33",
+		"oldComparableClass" : "PabloTesone 5/3/2016 11:43",
+		"otherClass" : "PabloTesone 5/3/2016 11:52",
+		"setUp" : "PabloTesone 5/3/2016 11:53",
+		"tearDown" : "PabloTesone 5/3/2016 11:55" } }
