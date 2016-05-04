@@ -10,5 +10,5 @@
 	"name" : "RemoveUserOfTrait",
 	"pools" : [
 		 ],
-	"super" : "TraitUserOperation",
+	"super" : "TraitOperation",
 	"type" : "normal" }

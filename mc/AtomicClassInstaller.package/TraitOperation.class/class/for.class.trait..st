@@ -1,5 +1,5 @@
 instance creation
-on: anAtomicClassInstaller user: aClass trait: aTrait 
+for: anAtomicClassInstaller class: aClass trait: aTrait 
 	| op |
 	op := self basicNew.
 	op modifiedClass: aClass.

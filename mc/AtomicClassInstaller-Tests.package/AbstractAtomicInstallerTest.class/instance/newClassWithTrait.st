@@ -1,3 +1,3 @@
-as yet unclassified
+test classes
 newClassWithTrait
 	^ self environment at:#NewClassWithTrait.

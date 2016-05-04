@@ -5,6 +5,9 @@ commit
 	objectsToMigrate := OrderedCollection new.
 	
 	[ 
+		operations do:#impact.
+		operations removeAll.
+
 		changedClasses valuesDo: [ :a | 
 			oldObjects add: a key. 
 			newObjects add: a value.
@@ -20,7 +23,7 @@ commit
 		changedClasses removeAll.
 		objectsToMigrate removeAll.
 					
-		newEnvironment := SystemDictionary new addAll:Smalltalk globals.
+		newEnvironment := SystemDictionary new addAll:Smalltalk globals; yourself.
 		
 		newClasses do:[ :cls | 
 			newEnvironment at: cls name put: cls.
@@ -28,11 +31,13 @@ commit
 		
 		newClasses removeAll.
 		
+		newEnvironment == Smalltalk globals.
+		
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
 		
-		operations do:#impact.
-									
+		oldObjects with:newObjects do:[ :a :b | self assert:( a == b ) not].
+															
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
 		  
 	] valueUnpreemptively.

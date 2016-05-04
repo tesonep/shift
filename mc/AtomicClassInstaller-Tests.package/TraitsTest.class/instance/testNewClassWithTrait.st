@@ -8,8 +8,8 @@ testNewClassWithTrait
 		make: [ :builder | 
 			builder
 				name: #NewClassWithTrait;
-				traitComposition: (builder classNamed: #TComparable);
-				superclass: (builder classNamed:#Object);
+				traitComposition: TComparable;
+				superclass: Object;
 				slots: #();
 				category: 'AtomicClassInstaller-Tests' ].
 	

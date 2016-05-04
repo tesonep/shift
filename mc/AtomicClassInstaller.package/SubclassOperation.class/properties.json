@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "AddUserOfTrait",
+		"modifiedClass",
+		"superclass" ],
+	"name" : "SubclassOperation",
 	"pools" : [
 		 ],
-	"super" : "TraitOperation",
+	"super" : "AtomicClassInstallerOperation",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
-accessing
+actions
 copyClass: oldClassOrTrait
 	^ oldClassOrTrait isTrait
 		ifTrue: [ oldClassOrTrait copy ]

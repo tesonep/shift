@@ -7,6 +7,5 @@ basicClassDefinitionChangedFrom: oldClass to: newClass using: classModification
 
 	"Handle subclass changes"
 	oldClass superclass == newClass superclass ifFalse: [ 
-		self removeSubclass: oldClass to:oldClass superclass.
-		self addSubclass: newClass to:newClass superclass.
+		self superclassChangedFrom:oldClass to: newClass by: classModification.
 	].

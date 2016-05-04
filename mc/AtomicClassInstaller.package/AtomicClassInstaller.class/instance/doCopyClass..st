@@ -1,6 +1,7 @@
-accessing
+actions
 doCopyClass: oldClass
 	| newClass |
+
 	newClass := oldClass class copy new
 		superclass: oldClass superclass;
 		methodDict: oldClass methodDict copy;
@@ -11,6 +12,8 @@ doCopyClass: oldClass
 		sharedPools: oldClass sharedPools copy.
 	oldClass class instSize+1 to: oldClass class instSize do:
 		[:offset | newClass instVarAt: offset put: (oldClass instVarAt: offset)].
+	
+	oldClass class allSlots do:[ :slot | slot write: (slot read:oldClass) to: newClass ].
 	
 	newClass classLayout: (oldClass layout copy host: newClass).
 	newClass basicCategory: oldClass basicCategory.

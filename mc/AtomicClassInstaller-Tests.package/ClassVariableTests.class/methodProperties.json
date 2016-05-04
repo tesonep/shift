@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildClassWithClassVariable" : "PabloTesone 5/4/2016 14:57",
+		"classWithClassVariable" : "PabloTesone 5/4/2016 14:53",
+		"setUp" : "PabloTesone 5/4/2016 14:48",
+		"tearDown" : "PabloTesone 5/4/2016 14:48",
+		"testMigratingClassVariable" : "PabloTesone 5/4/2016 16:47" } }

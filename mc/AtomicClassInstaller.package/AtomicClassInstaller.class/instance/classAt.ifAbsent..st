@@ -1,6 +1,7 @@
 accessing
 classAt: name ifAbsent: aBlockClosure 
 	newClasses detect:[:cls | cls name = name] ifFound:[:cls | ^ cls ].
+	
 	changedClasses detect: [ :kv | kv key name = name ] ifFound:[ :kv | ^ kv value ] ifNone:[ | anOldClass aNewClass |
 			(name endsWith: ' classTrait') ifTrue:[ |traitName| 
 				traitName := name withoutSuffix: ' classTrait'.
@@ -14,5 +15,8 @@ classAt: name ifAbsent: aBlockClosure
 					
 			changedClasses at: aNewClass name put: anOldClass -> aNewClass.
 			changedClasses at: aNewClass class name put: anOldClass class -> aNewClass class.			
+			
+			self assert:(aNewClass class allInstances includes: aNewClass).
+						
 			^aNewClass.  
 	].

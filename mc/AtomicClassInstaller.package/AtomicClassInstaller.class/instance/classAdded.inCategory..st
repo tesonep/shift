@@ -1,4 +1,4 @@
 notifications
 classAdded: aClass inCategory: aString 
 	newClasses add: aClass.
-	self addSubclass: aClass to: aClass superclass.
+	AddSubclass for: self class: aClass superclass: aClass superclass.

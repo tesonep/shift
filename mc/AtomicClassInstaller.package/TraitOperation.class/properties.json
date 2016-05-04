@@ -8,7 +8,7 @@
 	"instvars" : [
 		"modifiedTrait",
 		"modifiedClass" ],
-	"name" : "TraitUserOperation",
+	"name" : "TraitOperation",
 	"pools" : [
 		 ],
 	"super" : "AtomicClassInstallerOperation",
