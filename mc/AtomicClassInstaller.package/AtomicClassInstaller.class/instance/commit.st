@@ -5,6 +5,9 @@ commit
 	objectsToMigrate := OrderedCollection new.
 	
 	[ 
+		oldOrganizer := Smalltalk globals organization.
+		newOrganizer := oldOrganizer copy.
+	
 		operations do:#impact.
 		operations removeAll.
 
@@ -35,6 +38,9 @@ commit
 		
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
+
+		oldObjects add:oldOrganizer.
+		newObjects add:newOrganizer.
 		
 		oldObjects with:newObjects do:[ :a :b | self assert:( a == b ) not].
 															

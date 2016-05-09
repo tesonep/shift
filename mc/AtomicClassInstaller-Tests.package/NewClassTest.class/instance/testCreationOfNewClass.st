@@ -22,3 +22,5 @@ testCreationOfNewClass
 	
 	self assert: (Object subclasses includes: class).
 	self assert: (Smalltalk environment hasClassNamed: #NewClass).
+	self assert: (Smalltalk environment at:#NewClass) category equals: 'AtomicClassInstaller-Tests'.
+	self assert: ((Smalltalk globals organization classesInCategory:'AtomicClassInstaller-Tests') 						includes: (Smalltalk environment at:#NewClass))

@@ -1,0 +1,16 @@
+{
+	"category" : "AtomicClassInstaller-Operations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"modifiedClass",
+		"oldCategory",
+		"newCategory" ],
+	"name" : "CategorizeClass",
+	"pools" : [
+		 ],
+	"super" : "AtomicClassInstallerOperation",
+	"type" : "normal" }

@@ -14,7 +14,9 @@
 		"oldObjects",
 		"newObjects",
 		"objectsToMigrate",
-		"operations" ],
+		"operations",
+		"oldOrganizer",
+		"newOrganizer" ],
 	"name" : "AtomicClassInstaller",
 	"pools" : [
 		 ],
