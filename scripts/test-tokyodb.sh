@@ -15,7 +15,5 @@ Smalltalk saveAs:'tokyoDBTest'.
 
 cp tokyodb/lib/linux/libtokyocabinet.so.9.11.0 .
 
-ls -la
-
 ./pharo tokyoDBTest.image test --no-xterm --fail-on-failure "TokyoDB"
 
