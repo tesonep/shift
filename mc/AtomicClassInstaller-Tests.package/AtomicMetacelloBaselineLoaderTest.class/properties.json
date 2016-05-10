@@ -1,0 +1,15 @@
+{
+	"category" : "AtomicClassInstaller-Tests-Metacello",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baselineLoader",
+		"patcher" ],
+	"name" : "AtomicMetacelloBaselineLoaderTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

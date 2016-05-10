@@ -1,0 +1,18 @@
+{
+	"category" : "AtomicClassInstaller-Metacello",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baselineName",
+		"repository",
+		"repositoryURI",
+		"metacello",
+		"baseline" ],
+	"name" : "AtomicMetacelloBaselineLoader",
+	"pools" : [
+		 ],
+	"super" : "AbstractClassInstaller",
+	"type" : "normal" }
