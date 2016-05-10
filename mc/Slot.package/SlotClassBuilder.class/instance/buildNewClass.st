@@ -15,6 +15,8 @@ buildNewClass
 		withLayoutType: self layoutClass
 		slots: slots.
 
+	installer environment ifNotNil:[newClass environment: installer environment].
+
 	newClass declareClassVariables: sharedVariables.
 	newClass sharing: sharedPoolsString.
 	

@@ -2,9 +2,11 @@
 	"class" : {
 		"baseline:repository:" : "PabloTesone 5/10/2016 18:10" },
 	"instance" : {
+		"baseline" : "PabloTesone 5/10/2016 18:49",
 		"baselineName" : "PabloTesone 5/10/2016 18:10",
 		"baselineName:" : "PabloTesone 5/10/2016 18:10",
 		"initialize" : "PabloTesone 5/10/2016 18:23",
+		"metacello" : "PabloTesone 5/10/2016 18:49",
 		"packages" : "PabloTesone 5/10/2016 18:18",
 		"patch" : "PabloTesone 5/10/2016 18:21",
 		"repository" : "PabloTesone 5/10/2016 18:10",

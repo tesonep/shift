@@ -5,3 +5,4 @@ initialize
 	changedClasses := Dictionary new.
 	newClasses := OrderedCollection new.
 	operations := OrderedCollection new.
+	newEnvironment := Smalltalk globals copy.

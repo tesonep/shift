@@ -8,6 +8,8 @@ classDefinitionChangedFrom: oldClass to: newClass by: classModification
 	
 	newClass isMeta ifTrue:[self migrateMetaObjects: oldClass to: newClass ].
 	
+	newClass isMeta ifFalse:[ newEnvironment at:newClass name put: newClass ].
+	
 	self
 		copyMethodsFrom: oldClass to: newClass using: classModification;
 		basicClassDefinitionChangedFrom: oldClass to: newClass using: classModification

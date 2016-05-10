@@ -6,13 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"packageAdditions",
-		"classAdditions",
-		"methodAdditions",
-		"packageRemoves",
-		"classRemoves",
-		"methodRemoves" ],
-	"name" : "AtomicMonticelloPatcher",
+		 ],
+	"name" : "AtomicMonticelloRemoveVisitor",
 	"pools" : [
 		 ],
 	"super" : "Object",

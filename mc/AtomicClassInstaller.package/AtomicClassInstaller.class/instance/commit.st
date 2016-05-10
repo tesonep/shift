@@ -25,17 +25,9 @@ commit
 
 		changedClasses removeAll.
 		objectsToMigrate removeAll.
-					
-		newEnvironment := SystemDictionary new addAll:Smalltalk globals; yourself.
-		
-		newClasses do:[ :cls | 
-			newEnvironment at: cls name put: cls.
-		].
 		
 		newClasses removeAll.
-		
-		newEnvironment == Smalltalk globals.
-		
+				
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
 

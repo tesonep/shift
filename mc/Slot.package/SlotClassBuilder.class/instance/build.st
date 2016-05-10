@@ -26,6 +26,10 @@ build
 	self apply: metaChange.
 	self apply: classChange.
 
+	
+	result isMeta ifFalse:[
+		installer environment ifNotNil:[result environment: installer environment]].
+	
 	comment ifNotNil: [result classComment: comment stamp: commentStamp].
 
 	result instanceSide 
