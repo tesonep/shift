@@ -6,7 +6,7 @@ git clone --depth=1 https://github.com/estebanlm/tokyodb.git
 
 ./pharo Pharo.image eval "
 Metacello new 
-	baseline: 'AtomicClassInstaller';
+	baseline: 'TokyoDB';
 	repository: 'filetree://./tokyodb/mc';
 	load.
 
