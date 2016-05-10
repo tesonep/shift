@@ -18,7 +18,9 @@ install:
   - wget -O - get.pharo.org/50+vm | bash
   - ./scripts/install-packages.sh
 
+before_script:
+  - ./scripts/test-tokyodb.sh
 
 script:
-  - ./pharo Pharo.image test --fail-on-failure "AtomicClassInstaller" "Slot-Tests"
+  - ./pharo atomicPharoInstaller.image test --no-xterm --fail-on-failure "AtomicClassInstaller" "Slot-Tests"
 
