@@ -39,3 +39,5 @@ commit
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
 		  
 	] valueUnpreemptively.
+
+RPackageOrganizer default initializeFromMC.
