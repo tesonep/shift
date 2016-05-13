@@ -1,8 +1,6 @@
 applying
 applyAll
 	| additionVisitor removeVisitor |
-	AtomicClassInstaller reset.	
-
 	additionVisitor := AtomicMonticelloAdditionVisitor new.
 	removeVisitor := AtomicMonticelloRemoveVisitor new.
 	
@@ -13,5 +11,3 @@ applyAll
 	self packageRemoves do:[:e | e accept: removeVisitor].
 	self classRemoves do:[:e | e accept: removeVisitor].
 	self methodRemoves do:[:e | e accept: removeVisitor].
-			
-	AtomicClassInstaller commit.
