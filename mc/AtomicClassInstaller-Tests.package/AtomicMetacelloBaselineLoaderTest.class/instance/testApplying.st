@@ -8,6 +8,11 @@ testApplying
 	self assertDistributionOf: patch.
 	
 	patcher applyAll.
+
+	self deny:(Smalltalk environment hasClassNamed: #TokyoLibrary).
+	self deny:(Smalltalk environment hasClassNamed: #TokyoObject).	
+	
+	AtomicClassInstaller commit.
 	baselineLoader fixMonticelloPackage.
 	
 	self assert:(Smalltalk environment hasClassNamed: #TokyoLibrary).
