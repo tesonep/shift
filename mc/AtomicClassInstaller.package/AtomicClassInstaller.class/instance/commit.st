@@ -40,4 +40,4 @@ commit
 		  
 	] valueUnpreemptively.
 
-RPackageOrganizer default initializeFromMC.
+self afterCommit.

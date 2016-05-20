@@ -1,4 +1,4 @@
-actions
+utils
 doCopyClass: oldClass
 	| newClass |
 

@@ -1,0 +1,3 @@
+actions
+afterCommit
+	RPackageOrganizer initializeDefaultFromMC 

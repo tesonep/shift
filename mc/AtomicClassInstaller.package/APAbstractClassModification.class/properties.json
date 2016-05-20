@@ -1,0 +1,25 @@
+{
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"definedClassName",
+		"superclassName",
+		"slots",
+		"classSlots",
+		"sharedSlots",
+		"sharedPools",
+		"category",
+		"type",
+		"comment",
+		"commentStamp",
+		"traitComposition",
+		"classTraitComposition" ],
+	"name" : "APAbstractClassModification",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

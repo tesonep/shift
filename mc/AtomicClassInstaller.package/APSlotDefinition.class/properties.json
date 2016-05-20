@@ -1,0 +1,15 @@
+{
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"slotName",
+		"type" ],
+	"name" : "APSlotDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

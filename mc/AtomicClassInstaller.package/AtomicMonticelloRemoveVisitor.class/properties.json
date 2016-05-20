@@ -10,5 +10,5 @@
 	"name" : "AtomicMonticelloRemoveVisitor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AtomicMonticelloAbstractVisitor",
 	"type" : "normal" }

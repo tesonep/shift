@@ -1,3 +1,3 @@
 as yet unclassified
-visitOrganizationDefinition: aDefinition
-	 aDefinition categories do:[:e | self class package organizer checkPackageExistsOrRegister:e ]
+visitOrganizationDefinition: aOrganizationDefinition
+	aOrganizationDefinition categories do: [ :e | patch addOperation: (APCreatePackage new package: e) ]

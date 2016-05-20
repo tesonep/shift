@@ -1,3 +1,0 @@
-accessing
-classRemoves
-	^ classRemoves

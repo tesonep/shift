@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-Monticello",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"patch" ],
+	"name" : "AtomicMonticelloAbstractVisitor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

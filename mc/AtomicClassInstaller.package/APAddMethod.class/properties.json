@@ -1,0 +1,19 @@
+{
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"isMeta",
+		"source",
+		"category",
+		"selector",
+		"modifiedClassName",
+		"timeStamp" ],
+	"name" : "APAddMethod",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
