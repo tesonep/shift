@@ -1,13 +1,11 @@
 as yet unclassified
 testApplying
-	| patch |	
+	| mcPatch |	
 
-	patch := baselineLoader patch.
-	patch applyTo: patcher.
-
-	self assertDistributionOf: patch.
+	mcPatch := baselineLoader mcPatch.
+	atomicPatch := baselineLoader atomicPatch.
 	
-	patcher applyAll.
+	atomicPatch applyAll.
 
 	self deny:(Smalltalk environment hasClassNamed: #TokyoLibrary).
 	self deny:(Smalltalk environment hasClassNamed: #TokyoObject).	
