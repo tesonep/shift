@@ -15,5 +15,5 @@
 	"name" : "APAddMethod",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "APAbstractPatchOperation",
 	"type" : "normal" }

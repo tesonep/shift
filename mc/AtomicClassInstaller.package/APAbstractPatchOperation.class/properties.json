@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"package" ],
-	"name" : "APCreatePackage",
+		 ],
+	"name" : "APAbstractPatchOperation",
 	"pools" : [
 		 ],
-	"super" : "APAbstractPatchOperation",
+	"super" : "Object",
 	"type" : "normal" }

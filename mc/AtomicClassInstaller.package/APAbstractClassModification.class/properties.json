@@ -21,5 +21,5 @@
 	"name" : "APAbstractClassModification",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "APAbstractPatchOperation",
 	"type" : "normal" }
