@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "PabloTesone 5/20/2016 12:22",
-		"tearDown" : "PabloTesone 5/13/2016 11:12",
-		"testApplying" : "PabloTesone 5/20/2016 15:43",
-		"testOperationDistribution" : "PabloTesone 5/20/2016 15:36",
-		"testOperationDistribution2" : "PabloTesone 5/20/2016 15:36" } }

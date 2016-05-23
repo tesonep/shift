@@ -1,5 +1,5 @@
 as yet unclassified
-testApplying
+testLoadingTokyoDB
 	| mcPatch |	
 
 	mcPatch := baselineLoader mcPatch.

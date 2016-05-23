@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "PabloTesone 5/20/2016 12:22",
+		"tearDown" : "PabloTesone 5/13/2016 11:12",
+		"testDetectingModyfiedClassesInTokyoDB" : "PabloTesone 5/23/2016 10:53",
+		"testDetectingNewClassesInTokyoDB" : "PabloTesone 5/23/2016 10:52",
+		"testDetectingRemovedClassesInTokyoDB" : "PabloTesone 5/23/2016 11:11",
+		"testLoadingInverseOperationsFromMCPatch" : "PabloTesone 5/23/2016 10:49",
+		"testLoadingOperationsFromMCPatch" : "PabloTesone 5/23/2016 10:48",
+		"testLoadingTokyoDB" : "PabloTesone 5/23/2016 10:49" } }

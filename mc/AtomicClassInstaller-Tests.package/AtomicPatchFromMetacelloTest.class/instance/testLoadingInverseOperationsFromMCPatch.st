@@ -1,5 +1,5 @@
 as yet unclassified
-testOperationDistribution2
+testLoadingInverseOperationsFromMCPatch
 	| mcPatch inverseMCPatch |
 	mcPatch := baselineLoader mcPatch.
 	inverseMCPatch := MCPatch operations: ( mcPatch operations collect:#inverse ).

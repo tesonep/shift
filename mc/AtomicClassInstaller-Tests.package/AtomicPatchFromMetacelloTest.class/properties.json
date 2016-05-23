@@ -8,7 +8,7 @@
 	"instvars" : [
 		"baselineLoader",
 		"atomicPatch" ],
-	"name" : "AtomicMetacelloBaselineLoaderTest",
+	"name" : "AtomicPatchFromMetacelloTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
