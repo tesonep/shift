@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-Tests-Process",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"semaphore" ],
+	"name" : "APMockContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

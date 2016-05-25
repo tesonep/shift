@@ -1,13 +1,16 @@
 as yet unclassified
 testResumeOfAProcess	
-	| s2 suspendingList |
+	| s2 apProcessTool |
+	apProcessTool := APProcessTool new.
+	
 	s2 := Semaphore new.
 	process := [ semaphore wait. s2 signal. ] fork.	
-	suspendingList := process suspend.
+
+	apProcessTool suspendProcess: process.
 	
 	self assert: (s2 waitTimeoutSeconds: 1).
-
-	semaphore signal.	
-	suspendingList addLast:process.
 	
+	apProcessTool resumeProcess: process.
+	
+	semaphore signal.
 	self deny: (s2 waitTimeoutSeconds: 1).

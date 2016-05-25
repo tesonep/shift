@@ -1,5 +1,5 @@
 as yet unclassified
 testLocateProcesses
 	| ps | 
-	ps := APProcessLocator new nonSystemProcesses.
+	ps := APProcessTool new nonSystemProcesses.
 	self assert: ps isEmpty.

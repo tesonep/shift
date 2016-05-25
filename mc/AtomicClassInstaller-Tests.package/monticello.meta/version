@@ -1,2 +1,2 @@
-(name 'AtomicClassInstaller-Tests-PabloTesone.14' message 'Adding APProcessTool' id 'f872b9ca-facb-49f7-9a0f-60325c51a635' date '25 May 2016' time '2:43:48.04335 pm' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-Tests-PabloTesone.13' message 'Adding some messages to query a patch looking for changes in classes.
-' id 'dee25278-e317-5480-816d-cdc995bfb073' date '23 May 2016' time '11:12:33 am' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())
+(name 'AtomicClassInstaller-Tests-PabloTesone.15' message 'Adding interleaving, suspend and resume.' id '1c670062-bd12-4b59-a017-4d8883a3386e' date '25 May 2016' time '4:31:31.020702 pm' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-Tests-PabloTesone.14' message 'Adding APProcessTool
+' id '871cdf7e-853c-5255-a626-d6d191ff8294' date '25 May 2016' time '2:44 pm' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())

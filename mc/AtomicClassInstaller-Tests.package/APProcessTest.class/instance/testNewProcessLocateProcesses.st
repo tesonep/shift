@@ -4,5 +4,5 @@ testNewProcessLocateProcesses
 	
 	process := [ semaphore ifNotNil:#wait ] fork.
 	
-	ps := APProcessLocator new nonSystemProcesses.
+	ps := APProcessTool new nonSystemProcesses.
 	self assert: ps isNotEmpty.
