@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-Process",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "APProcessLocator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

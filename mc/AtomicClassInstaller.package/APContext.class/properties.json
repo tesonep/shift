@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-Contexts",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "APContext",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
