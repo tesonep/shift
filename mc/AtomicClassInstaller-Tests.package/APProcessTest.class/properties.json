@@ -1,0 +1,15 @@
+{
+	"category" : "AtomicClassInstaller-Tests-Process",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"semaphore",
+		"process" ],
+	"name" : "APProcessTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
