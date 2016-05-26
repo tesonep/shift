@@ -2,13 +2,16 @@
 	"class" : {
 		"fromMCDefinition:" : "PabloTesone 5/20/2016 15:29" },
 	"instance" : {
-		"apply" : "PabloTesone 5/20/2016 17:11",
+		"actualClass" : "PabloTesone 5/26/2016 12:03",
+		"apply" : "PabloTesone 5/26/2016 12:03",
 		"category" : "PabloTesone 5/20/2016 15:29",
 		"category:" : "PabloTesone 5/20/2016 15:29",
 		"isMeta" : "PabloTesone 5/20/2016 15:29",
 		"isMeta:" : "PabloTesone 5/20/2016 15:29",
-		"modifiedClassName" : "PabloTesone 5/20/2016 15:29",
+		"modifiedClassName" : "PabloTesone 5/26/2016 11:03",
 		"modifiedClassName:" : "PabloTesone 5/20/2016 15:29",
+		"modifiedMethods" : "PabloTesone 5/26/2016 11:03",
+		"postActionApply" : "PabloTesone 5/26/2016 13:04",
 		"selector" : "PabloTesone 5/20/2016 15:29",
 		"selector:" : "PabloTesone 5/20/2016 15:29",
 		"source" : "PabloTesone 5/20/2016 15:29",
