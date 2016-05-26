@@ -1,2 +1,2 @@
-(name 'AtomicClassInstaller-PabloTesone.19' message 'Adding interleaving, suspend and resume.' id '229cfc83-bf05-49d5-94ac-5697ef9aaac7' date '25 May 2016' time '4:31:45.32505 pm' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-PabloTesone.18' message 'Adding APProcessTool
-' id 'd803bb1a-f507-5a3f-bb8e-77691d8f33d7' date '25 May 2016' time '2:44:10 pm' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())
+(name 'AtomicClassInstaller-PabloTesone.20' message 'Detecting quiescent processes' id 'f259ff93-68ae-42bb-b2c4-a31c16f52c36' date '26 May 2016' time '10:45:25.310067 am' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-PabloTesone.19' message 'Adding interleaving, suspend and resume.
+' id '3012223d-c8f2-5343-a6fb-f4ff6a7259f3' date '25 May 2016' time '4:31:52 pm' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())

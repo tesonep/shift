@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"suspendedLists" ],
+		"suspendedLists",
+		"modifiedMethods" ],
 	"name" : "APProcessTool",
 	"pools" : [
 		 ],
