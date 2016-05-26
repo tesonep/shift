@@ -1,2 +1,2 @@
-(name 'AtomicClassInstaller-Tests-PabloTesone.16' message 'Detecting quiescent processes' id 'ac6b1475-96c1-4e88-b253-39333fc6c36a' date '26 May 2016' time '10:45:09.288034 am' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-Tests-PabloTesone.15' message 'Adding interleaving, suspend and resume.
-' id '6ea905ed-aa2f-5268-9bb3-2066bf2c51e1' date '25 May 2016' time '4:31:42 pm' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())
+(name 'AtomicClassInstaller-Tests-PabloTesone.17' message 'Adding initialize in class side support and running the TokyoDB tests as another test of the loading.' id '26eafa87-ff7f-4369-85fe-ac14ca0ed071' date '26 May 2016' time '1:05:46.772979 pm' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-Tests-PabloTesone.16' message 'Detecting quiescent processes
+' id '448a08d7-82a3-5d99-b86f-384c86570ea4' date '26 May 2016' time '10:45:23 am' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())
