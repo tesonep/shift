@@ -8,4 +8,5 @@ interleave: anObject selector: aSelector afterContext: aContext
 		receiver: anObject
 		method: method
 		arguments: #().
-	aContext insertSender: newContext
+	aContext insertSender: newContext.
+	^newContext.
