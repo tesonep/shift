@@ -1,12 +1,9 @@
 as yet unclassified
 testInterleaveInProcess
-	| obj first second mockProcess p |
+	| first second mockProcess p |
 	first := Semaphore new.
 	second := Semaphore new.
-	
-	obj := APMockContext new.
-	obj semaphore: second.
-	
+		
 	mockProcess := APMockProcess new.
 	mockProcess semaphore: first.
 	
@@ -14,7 +11,7 @@ testInterleaveInProcess
 	
 	Processor yield.
 	
-	APProcessTool new interleave: obj selector: #notifyInTheMiddle afterBlocked: p.
+	APProcessTool new interleaveBlock: [ second signal ]  afterBlockedProcess: p.
 	
 	first signal.
 	
