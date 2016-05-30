@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addModifiedMethod:" : "PabloTesone 5/30/2016 10:53:50",
+		"addSignalContextAndWait:" : "PabloTesone 5/30/2016 10:53:50",
+		"initialize" : "PabloTesone 5/30/2016 10:53:50",
+		"interleave:selector:afterContext:" : "PabloTesone 5/30/2016 10:53:50",
+		"interleaveBlock:afterBlockedProcess:" : "PabloTesone 5/30/2016 15:35",
+		"isQuiescent:" : "PabloTesone 5/30/2016 10:53:50",
+		"isSystemProcess:" : "PabloTesone 5/30/2016 10:53:50",
+		"modifiedMethods" : "PabloTesone 5/30/2016 10:53:50",
+		"nonQuiescentProcess" : "PabloTesone 5/30/2016 10:53:50",
+		"nonSystemProcesses" : "PabloTesone 5/30/2016 10:53:50",
+		"numberOfWaits" : "PabloTesone 5/30/2016 10:53:50",
+		"processArrivedSyncPoint:" : "PabloTesone 5/30/2016 10:53:50",
+		"resumeProcess:" : "PabloTesone 5/30/2016 10:53:50",
+		"suspendProcess:" : "PabloTesone 5/30/2016 10:53:50",
+		"suspendedLists" : "PabloTesone 5/30/2016 10:53:50",
+		"systemProcessMethods" : "PabloTesone 5/30/2016 10:53:50",
+		"waitAllQuiescent" : "PabloTesone 5/30/2016 10:53:50",
+		"waitingFor" : "PabloTesone 5/30/2016 10:53:50" } }

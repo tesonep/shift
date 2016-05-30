@@ -1,0 +1,15 @@
+{
+	"category" : "AtomicClassInstaller-Loader",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"processTool",
+		"patch" ],
+	"name" : "AtomicLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

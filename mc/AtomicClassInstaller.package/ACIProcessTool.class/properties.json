@@ -11,7 +11,7 @@
 		"semaphore",
 		"waitingFor",
 		"numberOfWaits" ],
-	"name" : "APProcessTool",
+	"name" : "ACIProcessTool",
 	"pools" : [
 		 ],
 	"super" : "Object",
