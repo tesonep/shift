@@ -4,5 +4,5 @@ testLocateProcesses
 	
 	(Delay forSeconds: 5) wait.
 	
-	ps := APProcessTool new nonSystemProcesses.
+	ps := ACIProcessTool new nonSystemProcesses.
 	self assertCollection: ps equals: #().

@@ -4,14 +4,14 @@ testInterleaveInProcess
 	first := Semaphore new.
 	second := Semaphore new.
 		
-	mockProcess := APMockProcess new.
+	mockProcess := ACIMockProcess new.
 	mockProcess semaphore: first.
 	
 	p := [ mockProcess run ] fork.
 	
 	Processor yield.
 	
-	APProcessTool new interleaveBlock: [ second signal ]  afterBlockedProcess: p.
+	ACIProcessTool new interleaveBlock: [ second signal ]  afterBlockedProcess: p.
 	
 	first signal.
 	

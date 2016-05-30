@@ -1,7 +1,7 @@
 as yet unclassified
 testResumeOfAProcess	
 	| s2 apProcessTool |
-	apProcessTool := APProcessTool new.
+	apProcessTool := ACIProcessTool new.
 	
 	s2 := Semaphore new.
 	process := [ semaphore wait. s2 signal. ] fork.	

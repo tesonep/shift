@@ -8,7 +8,7 @@
 	"instvars" : [
 		"semaphore",
 		"returnValue" ],
-	"name" : "APMockProcess",
+	"name" : "ACIMockProcess",
 	"pools" : [
 		 ],
 	"super" : "Object",
