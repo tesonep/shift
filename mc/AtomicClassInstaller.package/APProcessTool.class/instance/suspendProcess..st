@@ -1,4 +1,4 @@
-as yet unclassified
+process control
 suspendProcess: aProcess
  	| aList |
 	aList := aProcess suspend.

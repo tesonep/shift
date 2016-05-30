@@ -1,4 +1,4 @@
-as yet unclassified
+interleaving contexts
 interleave: anObject selector: aSelector afterContext: aContext
 	| newContext method |
 	method := anObject class lookupSelector: aSelector.

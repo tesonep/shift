@@ -1,2 +1,2 @@
-(name 'AtomicClassInstaller-PabloTesone.22' message 'Refactoring API of APProcessTool' id '0ab79014-ed18-43f9-b769-b94ee066acae' date '26 May 2016' time '5:58:16.221595 pm' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-PabloTesone.21' message 'Adding initialize in class side support and running the TokyoDB tests as another test of the loading.
-' id '680e1c16-2a32-5237-88ce-ce73be3a67ae' date '26 May 2016' time '1:06:16 pm' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())
+(name 'AtomicClassInstaller-PabloTesone.23' message 'Adding the ability of waiting for quiescense.' id '0e16463b-e0fd-4203-a6cf-469e82907e26' date '30 May 2016' time '10:53:32.444941 am' author 'PabloTesone' ancestors ((name 'AtomicClassInstaller-PabloTesone.22' message 'Refactoring API of APProcessTool
+' id 'd600110a-3d44-5296-b502-de0e6138424d' date '26 May 2016' time '5:59:57 pm' author 'PabloTesone' ancestors () stepChildren ())) stepChildren ())

@@ -1,4 +1,4 @@
-as yet unclassified
+interleaving contexts
 interleaveBlock: aBlock afterBlockedProcess: aProcess
 	| apContext |
 	apContext := APContext new

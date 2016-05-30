@@ -7,7 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"suspendedLists",
-		"modifiedMethods" ],
+		"modifiedMethods",
+		"semaphore",
+		"waitingFor",
+		"numberOfWaits" ],
 	"name" : "APProcessTool",
 	"pools" : [
 		 ],

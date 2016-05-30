@@ -1,4 +1,4 @@
-as yet unclassified
+process control
 resumeProcess: aProcess
  	| aList |
 	aList := suspendedLists at: aProcess.

@@ -1,3 +1,3 @@
-as yet unclassified
+adding
 addModifiedMethod: aPair 
 	modifiedMethods add: aPair.

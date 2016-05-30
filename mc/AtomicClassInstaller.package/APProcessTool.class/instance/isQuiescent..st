@@ -1,4 +1,4 @@
-as yet unclassified
+querying processes
 isQuiescent: aProcess
 	"A process is quiescent if it is not the active and it does not activate any of the modified methods"
 
