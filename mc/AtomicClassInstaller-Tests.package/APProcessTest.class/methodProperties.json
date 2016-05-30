@@ -4,8 +4,10 @@
 	"instance" : {
 		"setUp" : "PabloTesone 5/25/2016 14:40",
 		"tearDown" : "PabloTesone 5/26/2016 10:44",
-		"testDetectingQuiescentProcesses" : "PabloTesone 5/26/2016 10:43",
+		"testDetectingQuiescentProcesses" : "PabloTesone 5/26/2016 18:01",
 		"testInterleaveInProcess" : "PabloTesone 5/26/2016 17:51",
 		"testLocateProcesses" : "PabloTesone 5/25/2016 15:52",
 		"testNewProcessLocateProcesses" : "PabloTesone 5/25/2016 15:52",
-		"testResumeOfAProcess" : "PabloTesone 5/25/2016 16:29" } }
+		"testResumeOfAProcess" : "PabloTesone 5/25/2016 16:29",
+		"testWaitingForQuiescenseProcesses" : "PabloTesone 5/30/2016 10:44",
+		"testWaitingForQuiescenseProcessesNeverArrives" : "PabloTesone 5/30/2016 10:46" } }

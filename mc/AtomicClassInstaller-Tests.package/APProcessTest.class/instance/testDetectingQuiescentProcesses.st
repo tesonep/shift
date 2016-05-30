@@ -16,3 +16,4 @@ testDetectingQuiescentProcesses
 	
 	self assert: (tool isQuiescent: process).
 	self deny: (tool isQuiescent: process2).
+	self assertCollection: (tool nonQuiescentProcess) equals: { process2 }.
