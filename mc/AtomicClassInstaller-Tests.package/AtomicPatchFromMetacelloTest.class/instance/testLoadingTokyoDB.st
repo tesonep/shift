@@ -26,7 +26,5 @@ testLoadingTokyoDB
 	testClasses do:[:e | e addToSuiteFromSelectors:suite].
 	result := suite run.	
 
-self halt.
-
 	self assert: result errors size equals:0.
 	self assert: result failures size equals:0. 

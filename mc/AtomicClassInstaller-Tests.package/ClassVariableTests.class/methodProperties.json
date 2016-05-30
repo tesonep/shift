@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildClassWithClassVariable" : "PabloTesone 5/4/2016 14:57",
-		"classWithClassVariable" : "PabloTesone 5/4/2016 14:53",
-		"setUp" : "PabloTesone 5/4/2016 14:48",
-		"tearDown" : "PabloTesone 5/4/2016 14:48",
-		"testMigratingClassVariable" : "PabloTesone 5/4/2016 16:47" } }
+		"buildClassWithClassVariable" : "PabloTesone 5/30/2016 10:53:28",
+		"classWithClassVariable" : "PabloTesone 5/30/2016 10:53:28",
+		"setUp" : "PabloTesone 5/30/2016 10:53:28",
+		"tearDown" : "PabloTesone 5/30/2016 10:53:28",
+		"testMigratingClassVariable" : "PabloTesone 5/30/2016 10:53:28" } }

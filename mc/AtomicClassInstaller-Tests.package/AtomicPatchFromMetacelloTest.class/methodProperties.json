@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "PabloTesone 5/20/2016 12:22",
-		"tearDown" : "PabloTesone 5/13/2016 11:12",
-		"testDetectingModyfiedClassesInTokyoDB" : "PabloTesone 5/23/2016 10:53",
-		"testDetectingModyfiedMethodsInTokyoDB" : "PabloTesone 5/26/2016 11:03",
-		"testDetectingNewClassesInTokyoDB" : "PabloTesone 5/23/2016 10:52",
-		"testDetectingRemovedClassesInTokyoDB" : "PabloTesone 5/23/2016 11:11",
-		"testLoadingInverseOperationsFromMCPatch" : "PabloTesone 5/23/2016 10:49",
-		"testLoadingOperationsFromMCPatch" : "PabloTesone 5/23/2016 10:48",
-		"testLoadingTokyoDB" : "PabloTesone 5/26/2016 11:26" } }
+		"setUp" : "PabloTesone 5/30/2016 10:53:28",
+		"tearDown" : "PabloTesone 5/30/2016 10:53:28",
+		"testDetectingModyfiedClassesInTokyoDB" : "PabloTesone 5/30/2016 10:53:28",
+		"testDetectingModyfiedMethodsInTokyoDB" : "PabloTesone 5/30/2016 10:53:28",
+		"testDetectingNewClassesInTokyoDB" : "PabloTesone 5/30/2016 10:53:28",
+		"testDetectingRemovedClassesInTokyoDB" : "PabloTesone 5/30/2016 10:53:28",
+		"testLoadingInverseOperationsFromMCPatch" : "PabloTesone 5/30/2016 10:53:28",
+		"testLoadingOperationsFromMCPatch" : "PabloTesone 5/30/2016 10:53:28",
+		"testLoadingTokyoDB" : "PabloTesone 5/30/2016 11:53" } }
