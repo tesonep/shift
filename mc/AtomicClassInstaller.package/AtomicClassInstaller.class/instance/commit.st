@@ -31,6 +31,15 @@ commit
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
 
+		newEnvironment associationsDo:[:newAssoc | 
+			Smalltalk globals	associationAt: newAssoc key ifPresent:[:oldAssoc | 
+						(oldAssoc ~~ newAssoc) ifTrue:[
+							oldObjects add:oldAssoc.
+							newObjects add:newAssoc.
+						]
+				] 
+		].
+
 		oldObjects add:oldOrganizer.
 		newObjects add:newOrganizer.
 		

@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"baseline:repository:" : "PabloTesone 5/30/2016 10:53:50" },
+		"baseline:repository:" : "PabloTesone 5/30/2016 15:44:53" },
 	"instance" : {
-		"atomicPatch" : "PabloTesone 5/30/2016 10:53:50",
-		"baseline" : "PabloTesone 5/30/2016 10:53:50",
-		"baselineName" : "PabloTesone 5/30/2016 10:53:50",
-		"baselineName:" : "PabloTesone 5/30/2016 10:53:50",
-		"fixMonticelloPackage" : "PabloTesone 5/30/2016 10:53:50",
-		"initialize" : "PabloTesone 5/30/2016 10:53:50",
-		"mcPatch" : "PabloTesone 5/30/2016 10:53:50",
-		"mcVersions" : "PabloTesone 5/30/2016 10:53:50",
-		"metacello" : "PabloTesone 5/30/2016 10:53:50",
-		"packages" : "PabloTesone 5/30/2016 10:53:50",
-		"repository" : "PabloTesone 5/30/2016 10:53:50",
-		"repository:" : "PabloTesone 5/30/2016 10:53:50",
-		"repositoryURI:" : "PabloTesone 5/30/2016 10:53:50",
-		"version" : "PabloTesone 5/30/2016 10:53:50" } }
+		"atomicPatch" : "PabloTesone 5/30/2016 15:44:53",
+		"baseline" : "PabloTesone 5/30/2016 15:44:53",
+		"baselineName" : "PabloTesone 5/30/2016 15:44:53",
+		"baselineName:" : "PabloTesone 5/30/2016 15:44:53",
+		"fixMonticelloPackage" : "PabloTesone 5/30/2016 15:44:53",
+		"initialize" : "PabloTesone 5/30/2016 15:44:53",
+		"mcPatch" : "PabloTesone 5/30/2016 15:44:53",
+		"mcVersions" : "PabloTesone 5/30/2016 15:44:53",
+		"metacello" : "PabloTesone 5/30/2016 15:44:53",
+		"packages" : "PabloTesone 5/30/2016 15:44:53",
+		"repository" : "PabloTesone 5/30/2016 15:44:53",
+		"repository:" : "PabloTesone 5/30/2016 15:44:53",
+		"repositoryURI:" : "PabloTesone 5/30/2016 15:44:53",
+		"version" : "PabloTesone 5/30/2016 15:44:53" } }

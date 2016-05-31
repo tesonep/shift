@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		"uniqueInstance" ],
 	"classvars" : [
-		 ],
+		"AssertActive" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"innerClassInstaller",

@@ -1,4 +1,4 @@
-as yet unclassified
+notifications
 sharedVariableOrSharedPoolChangedFrom: oldClass to: newClass by: classModification 
 	self
 		classDefinitionChangedFrom: oldClass 
