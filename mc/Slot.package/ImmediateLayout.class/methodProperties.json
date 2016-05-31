@@ -1,7 +1,0 @@
-{
-	"class" : {
-		"extending:scope:host:" : "EstebanLorenzano 11/26/2015 14:49" },
-	"instance" : {
-		"extend:" : "EstebanLorenzano 6/8/2015 14:53",
-		"initialize" : "CamilloBruni 10/16/2011 20:21",
-		"instanceSpecification" : "CamilleTeruel 11/7/2014 14:53" } }
