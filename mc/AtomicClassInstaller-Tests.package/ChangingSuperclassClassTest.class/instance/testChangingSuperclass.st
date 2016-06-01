@@ -1,7 +1,8 @@
 tests
 testChangingSuperclass
-	| class |
-
+	| class obj |
+	obj := self otherClass new.
+	self assert: obj class instSize equals: 0.
 	self assert: (Object subclasses includes: self oldClass).
 
 	class := AtomicClassInstaller
@@ -25,3 +26,5 @@ testChangingSuperclass
 	self assert: self otherClass superclass equals: self oldClass.
 	self assert: (self oldClass subclasses includes: self otherClass).
 	self deny: (Object subclasses includes: self otherClass).
+	
+	self assert: obj class instSize equals: 2.
