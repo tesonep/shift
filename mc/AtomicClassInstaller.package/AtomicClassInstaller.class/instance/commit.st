@@ -11,7 +11,6 @@ commit
 		operations do:#impact.
 		operations removeAll.
 
-
 		changedClasses valuesDo: [ :a | 
 			oldObjects add: a key. 
 			newObjects add: a value.
@@ -45,7 +44,9 @@ commit
 		newObjects add:newOrganizer.
 		
 		oldObjects with:newObjects do:[ :a :b | self assert:( a == b ) not].
-															
+		self assert: [oldObjects allSatisfy: #isNotNil] .
+		self assert: [newObjects allSatisfy: #isNotNil] .
+																	
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
 		  
 	] valueUnpreemptively.
