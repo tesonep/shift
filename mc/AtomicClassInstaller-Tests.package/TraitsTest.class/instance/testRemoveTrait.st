@@ -10,7 +10,6 @@ testRemoveTrait
 		make: [ :builder | 
 			builder
 				name: #OldComparableClass;
-				superclass: (builder classNamed:#Object);
 				traitComposition: { };
 				slots: #(firstVariable);
 				category: 'AtomicClassInstaller-Tests' ].

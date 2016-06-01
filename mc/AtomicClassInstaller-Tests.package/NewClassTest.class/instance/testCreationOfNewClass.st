@@ -6,7 +6,6 @@ testCreationOfNewClass
 		make: [ :builder | 
 			builder
 				name: #NewClass;
-				superclass: (builder classNamed: #Object);
 				slots: #(#a #b);
 				category: 'AtomicClassInstaller-Tests' ].
 	

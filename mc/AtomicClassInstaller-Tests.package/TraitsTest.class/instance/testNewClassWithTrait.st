@@ -9,7 +9,6 @@ testNewClassWithTrait
 			builder
 				name: #NewClassWithTrait;
 				traitComposition: TComparable;
-				superclass: Object;
 				slots: #();
 				category: 'AtomicClassInstaller-Tests' ].
 	
