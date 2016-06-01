@@ -1,4 +1,6 @@
 operations
 applyAll
+	self runPreScript.
 	operations do:#apply.
-	operations do:#postActionApply
+	operations do:#postActionApply.
+	self runPostScript.
