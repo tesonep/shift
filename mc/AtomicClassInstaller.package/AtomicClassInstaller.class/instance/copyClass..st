@@ -1,5 +1,5 @@
 utils
 copyClass: oldClassOrTrait
 	^ oldClassOrTrait isTrait
-		ifTrue: [ oldClassOrTrait copy ]
+		ifTrue: [ self doCopyTrait: oldClassOrTrait ]
 		ifFalse: [ self doCopyClass: oldClassOrTrait ]

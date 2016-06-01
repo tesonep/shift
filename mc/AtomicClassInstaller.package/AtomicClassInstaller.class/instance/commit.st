@@ -11,6 +11,7 @@ commit
 		operations do:#impact.
 		operations removeAll.
 
+
 		changedClasses valuesDo: [ :a | 
 			oldObjects add: a key. 
 			newObjects add: a value.
