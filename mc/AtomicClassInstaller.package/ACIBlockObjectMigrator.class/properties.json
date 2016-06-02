@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ACIDefaultObjectMigrator",
+		"blockCode",
+		"block" ],
+	"name" : "ACIBlockObjectMigrator",
 	"pools" : [
 		 ],
-	"super" : "AbstractClassInstaller",
+	"super" : "ACIDefaultObjectMigrator",
 	"type" : "normal" }

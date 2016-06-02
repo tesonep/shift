@@ -1,3 +1,3 @@
 accessing
 runPostScript
-	self runScript: postScript.
+	^self runScript: postScript.

@@ -4,7 +4,7 @@ loadPatch: aPatch
 	
 	AtomicClassInstaller reset.
 	
-	AtomicClassInstaller uniqueInstance objectMigratorProvider: self.
+	AtomicClassInstaller uniqueInstance objectMigratorProvider: patch.
 	
 	processTool addAllModifiedMethod: aPatch modifiedMethods.
 	processTool waitAllQuiescent.

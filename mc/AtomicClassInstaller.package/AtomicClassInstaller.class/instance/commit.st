@@ -1,10 +1,13 @@
 actions
 commit	
+	alreadyCommited ifTrue:[ self error:'It should have been reseted'].
+	
 	oldObjects := OrderedCollection new.
 	newObjects := OrderedCollection new.
 	objectsToMigrate := OrderedCollection new.
 	
 	[ 
+		alreadyCommited := true.
 		oldOrganizer := Smalltalk globals organization.
 		newOrganizer := oldOrganizer copy.
 	

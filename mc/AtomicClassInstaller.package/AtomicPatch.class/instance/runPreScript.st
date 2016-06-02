@@ -1,3 +1,3 @@
 accessing
 runPreScript
-	self runScript: preScript.
+	^self runScript: preScript.

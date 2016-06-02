@@ -5,6 +5,7 @@ initialize
 	changedClasses := Dictionary new.
 	newClasses := OrderedCollection new.
 	operations := OrderedCollection new.
+	alreadyCommited := false.
 	
 	objectMigratorProvider := ACIDefaultObjectMigratorProvider new.
 
