@@ -12,8 +12,6 @@ migrateObjectsFrom: oldClass to: newClass
 	(((newClass isVariable = oldClass isVariable) and:[ newClass instSize = oldClass instSize ]) 
 		and:[ oldClass slots = newClass slots ]) ifTrue:[^#()].
 	
-	oldClass name logCr.
-	
 	result := Array new: oldInstances size.
 	migrator := objectMigratorProvider objectMigratorFor: oldClass to: newClass.  
 	
