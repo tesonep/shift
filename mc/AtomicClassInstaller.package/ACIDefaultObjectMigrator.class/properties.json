@@ -1,0 +1,14 @@
+{
+	"category" : "AtomicClassInstaller-AtomicClassInstaller",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ACIDefaultObjectMigrator",
+	"pools" : [
+		 ],
+	"super" : "AbstractClassInstaller",
+	"type" : "normal" }

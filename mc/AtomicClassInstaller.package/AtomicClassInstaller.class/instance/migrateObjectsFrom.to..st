@@ -1,6 +1,6 @@
 migrating
 migrateObjectsFrom: oldClass to: newClass
-	| oldInstances variable instSize result |
+	| oldInstances result migrator |
 	
 	oldClass isTrait ifTrue:[ ^ #()].
 	newClass isMeta ifTrue:[ ^ #() ].
@@ -8,18 +8,18 @@ migrateObjectsFrom: oldClass to: newClass
 	oldInstances := oldClass allInstances asArray.
 		 	
 	oldInstances isEmpty ifTrue: [ ^ #() ].	"no instances to convert"
-			
-	variable := newClass isVariable.
-	instSize := newClass instSize.
-	
-	(((variable = oldClass isVariable) and:[ instSize = oldClass instSize ]) 
+				
+	(((newClass isVariable = oldClass isVariable) and:[ newClass instSize = oldClass instSize ]) 
 		and:[ oldClass slots = newClass slots ]) ifTrue:[^#()].
 	
+	oldClass name logCr.
+	
 	result := Array new: oldInstances size.
+	migrator := objectMigratorProvider objectMigratorFor: oldClass to: newClass.  
 	
 	1 to: oldInstances size do: [ :i | | old new | 
 		old := oldInstances at: i.
-		new := newClass newInstanceFrom: (oldInstances at: i) variable: variable size: instSize.
+		new := self migrateSingleObject: old from: oldClass to:newClass using:migrator.
 		result at: i 
 			put: old -> new 
 	].	
