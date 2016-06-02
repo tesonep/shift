@@ -8,11 +8,28 @@ testModificationOldClassWithoutMigrator
 	loader := AtomicLoader new.
 	patch := AtomicPatch new.
 
-	patch addOperation: (self createModifyClass: #OldClass slots: #(#firstVariable #secondVariable #thirdVariable) from: (self createAddClass: #OldClass slots: #(#firstVariable #secondVariable))).
-	patch addOperation: (self createAddMethod: #thirdVariable on: #OldClass source:'thirdVariable ^ thirdVariable').
-	patch addOperation: (self createAddMethod: #thirdVariable: on: #OldClass source:'thirdVariable:aValue  thirdVariable:=aValue').
+	patch
+		addOperation:
+			(self
+				createModifyClass: #OldClass
+				slots: #(#firstVariable #secondVariable #thirdVariable)
+				from: (self createAddClass: #OldClass slots: #(#firstVariable #secondVariable))).
+	patch
+		addOperation:
+			(self
+				createAddMethod: #thirdVariable
+				on: #OldClass
+				source: 'thirdVariable ^ thirdVariable').
+	patch
+		addOperation:
+			(self
+				createAddMethod: #thirdVariable:
+				on: #OldClass
+				source: 'thirdVariable:aValue  thirdVariable:=aValue').
 
 	loader loadPatch: patch.
+
+	(STON toStringPretty: patch) logCr.
 
 	obj1 thirdVariable: 33.
 	self assert: obj1 thirdVariable = 33.

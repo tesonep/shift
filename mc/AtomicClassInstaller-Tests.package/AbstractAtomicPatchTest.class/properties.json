@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"str",
-		"p2" ],
-	"name" : "ChangingClassUsingPatchTest",
+		 ],
+	"name" : "AbstractAtomicPatchTest",
 	"pools" : [
 		 ],
-	"super" : "AbstractAtomicPatchTest",
+	"super" : "AbstractAtomicInstallerTest",
 	"type" : "normal" }
