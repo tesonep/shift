@@ -9,7 +9,7 @@
 		"mcLoader",
 		"atomicPatch",
 		"mcRepo" ],
-	"name" : "AtomicPatchLoadingChangesFromMonticello",
+	"name" : "AtomicPatchLoadingChangesFromMonticelloTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
