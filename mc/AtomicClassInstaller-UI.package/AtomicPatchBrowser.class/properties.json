@@ -1,0 +1,16 @@
+{
+	"category" : "AtomicClassInstaller-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"patch",
+		"browser",
+		"labels" ],
+	"name" : "AtomicPatchBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
