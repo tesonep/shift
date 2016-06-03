@@ -1,3 +1,3 @@
 accessing
 classTraitComposition
-	^ classTraitComposition
+	^ classTraitComposition ifNil:['#()']

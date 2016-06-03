@@ -1,3 +1,3 @@
 as yet unclassified
-convert: mcPatch
+convertFromMCPatch: mcPatch
 	^ self new convertFrom: mcPatch
