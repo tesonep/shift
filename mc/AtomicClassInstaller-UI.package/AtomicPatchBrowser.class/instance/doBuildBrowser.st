@@ -1,5 +1,5 @@
 as yet unclassified
-buildBrowser
+doBuildBrowser
 	browser := GLMTabulator new.
 	browser column: #content.
 	browser column: #detail.
@@ -10,4 +10,3 @@ buildBrowser
 		from:#content;
 		to: #detail;
 		andShow: [ :builder | self detailsIn: builder ].
-	^ browser

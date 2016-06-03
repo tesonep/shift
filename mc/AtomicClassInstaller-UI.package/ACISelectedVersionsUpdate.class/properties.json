@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PabloTesone 6/3/2016 16:24",
 	"instvars" : [
-		"patch",
-		"labels" ],
-	"name" : "AtomicPatchBrowser",
+		 ],
+	"name" : "ACISelectedVersionsUpdate",
 	"pools" : [
 		 ],
-	"super" : "ACIAbstractBrowser",
+	"super" : "Announcement",
 	"type" : "normal" }

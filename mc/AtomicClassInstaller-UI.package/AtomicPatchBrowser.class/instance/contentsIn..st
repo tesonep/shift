@@ -4,4 +4,4 @@ contentsIn: builder
 		title: 'Patch Content';
 		children: [ :item | self childrenOf: item];
 		format: [:item | self displayFor: item];
-		when: [ :item | item isCollection ]
+		icon: [ :item | self iconFor: item ]

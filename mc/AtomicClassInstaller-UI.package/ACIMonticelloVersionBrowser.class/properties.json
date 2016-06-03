@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"patch",
-		"labels" ],
-	"name" : "AtomicPatchBrowser",
+		"selectedVersions",
+		"selectedVersionsPresentation",
+		"announcer" ],
+	"name" : "ACIMonticelloVersionBrowser",
 	"pools" : [
 		 ],
 	"super" : "ACIAbstractBrowser",

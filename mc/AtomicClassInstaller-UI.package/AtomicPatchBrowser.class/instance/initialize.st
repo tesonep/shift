@@ -1,6 +1,13 @@
 as yet unclassified
 initialize
-	labels := {(#preScript -> 'Pre-Execution Script').
-	(#postScript -> 'Post-Execution Script').
-	(#transformations -> 'Transformations').
-	(#operations -> 'Operations')} asDictionary
+	| icons | 
+	super initialize.
+	
+	icons := Smalltalk ui icons.
+	
+	labels := {
+		#preScript -> {'Pre-Execution Script'.  icons iconNamed: #glamorousBrowse}.
+		#postScript -> {'Post-Execution Script'. icons iconNamed: #glamorousBrowse}.
+		#transformations -> {'Transformations'. icons iconNamed: #glamorousRefresh}.
+		#operations -> {'Operations'. icons iconNamed: #glamorousSpawn}
+		} asDictionary

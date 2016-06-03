@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"patch",
-		"labels" ],
-	"name" : "AtomicPatchBrowser",
+		"browser" ],
+	"name" : "ACIAbstractBrowser",
 	"pools" : [
 		 ],
-	"super" : "ACIAbstractBrowser",
+	"super" : "Object",
 	"type" : "normal" }
