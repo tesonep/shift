@@ -6,9 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "APAddMethod",
+		"isMeta",
+		"source",
+		"category",
+		"selector",
+		"modifiedClassName",
+		"timeStamp" ],
+	"name" : "APAbstractMethodModification",
 	"pools" : [
 		 ],
-	"super" : "APAbstractMethodModification",
+	"super" : "APAbstractPatchOperation",
 	"type" : "normal" }

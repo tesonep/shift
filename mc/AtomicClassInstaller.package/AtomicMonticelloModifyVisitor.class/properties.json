@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"patch",
-		"additionVisitor",
-		"removeVisitor",
-		"modifyVisitor" ],
-	"name" : "AtomicMonticelloPatchConversor",
+		"baseDefinition" ],
+	"name" : "AtomicMonticelloModifyVisitor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AtomicMonticelloAbstractVisitor",
 	"type" : "normal" }
