@@ -29,8 +29,6 @@ testModificationOldClassWithoutMigrator
 
 	loader loadPatch: patch.
 
-	(STON toStringPretty: patch) logCr.
-
 	obj1 thirdVariable: 33.
 	self assert: obj1 thirdVariable = 33.
 
