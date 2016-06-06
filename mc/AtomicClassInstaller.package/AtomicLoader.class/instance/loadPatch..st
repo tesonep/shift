@@ -1,13 +1,13 @@
 as yet unclassified
 loadPatch: aPatch
 	patch := aPatch.
-	
+
 	AtomicClassInstaller reset.
-	
+
 	AtomicClassInstaller uniqueInstance objectMigratorProvider: patch.
-	
+
 	processTool addAllModifiedMethod: aPatch modifiedMethods.
-	processTool waitAllQuiescent.
+
+	[ processTool waitAllQuiescent.
 	patch applyAll.
-	
-	AtomicClassInstaller commit
+	AtomicClassInstaller commit ] valueUnpreemptively
