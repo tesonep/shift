@@ -5,7 +5,7 @@ testLoadPatch
 	self assert: self aciUser allSlots size equals: 3.
 	self deny: (self aciUser allSlots anySatisfy:[:s | s name = #fullname]). 
 
-	mcVersion := mcRepo versionFrom: 'AtomicClassInstaller-Tests-Code-PabloTesone.2'.
+	mcVersion := mcRepo versionFrom: 'AtomicClassInstaller-Tests-Code-PabloTesone.3'.
 	patch := AtomicPatch fromMCVersions: {mcVersion}.
 	loader := AtomicLoader new.
 	loader loadPatch: patch.

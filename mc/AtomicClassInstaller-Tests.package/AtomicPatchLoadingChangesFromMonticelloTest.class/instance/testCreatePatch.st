@@ -1,7 +1,7 @@
 as yet unclassified
 testCreatePatch
 	| mcVersion patch firstOperation |
-	mcVersion := mcRepo versionFrom: 'AtomicClassInstaller-Tests-Code-PabloTesone.2'.
+	mcVersion := mcRepo versionFrom: 'AtomicClassInstaller-Tests-Code-PabloTesone.3'.
 	patch := AtomicPatch fromMCVersions: {mcVersion}.
 
 	self assert: patch operations size equals: 9.
