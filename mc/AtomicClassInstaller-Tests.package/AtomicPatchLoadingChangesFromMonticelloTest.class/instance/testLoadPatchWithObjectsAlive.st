@@ -14,7 +14,7 @@ testLoadPatchWithObjectsAlive
 	self assert: usr1 fullName equals: 'Pepe Argento'.
 	self assert: usr2 fullName equals: 'Coqui Argento'.
 
-	mcVersion := mcRepo versionFrom: 'AtomicClassInstaller-Tests-Code-PabloTesone.3'.
+	mcVersion := mcRepo versionFrom: self targetVersion.
 	patch := AtomicPatch fromMCVersions: {mcVersion}.
 
 	patch

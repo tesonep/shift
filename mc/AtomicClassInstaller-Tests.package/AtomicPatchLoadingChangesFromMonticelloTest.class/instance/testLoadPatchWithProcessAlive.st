@@ -31,7 +31,7 @@ testLoadPatchWithProcessAlive
 			Processor yield 
 		] ] fork.
 
-	mcVersion := mcRepo versionFrom: 'AtomicClassInstaller-Tests-Code-PabloTesone.3'.
+	mcVersion := mcRepo versionFrom: self targetVersion.
 	patch := AtomicPatch fromMCVersions: {mcVersion}.
 
 	patch
