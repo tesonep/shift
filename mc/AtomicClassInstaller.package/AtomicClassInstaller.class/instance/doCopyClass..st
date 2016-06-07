@@ -20,10 +20,12 @@ doCopyClass: oldClass
 	oldClass class allSlots do:[ :slot | slot write: (slot read:oldClass) to: newClass ].
 	
 	self copyLayoutFrom: oldClass to:newClass.
+	
 	newClass basicCategory: oldClass basicCategory.
 	newClass environment: oldClass environment.
 	newClass traitComposition: oldClass traitComposition.
 	newClass subclasses: (oldClass subclasses collect:[:sc | self classAt: sc name. ]).
 	newClass localSelectors: oldClass basicLocalSelectors copy.
+	self updateLayoutInSubClassesFrom: oldClass to:newClass.
 	
 	^ newClass.
