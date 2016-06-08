@@ -3,6 +3,7 @@ loadPatch: aPatch
 	patch := aPatch.
 
 	AtomicClassInstaller reset.
+	AtomicClassInstaller autocommit: false.
 
 	AtomicClassInstaller uniqueInstance objectMigratorProvider: patch.
 

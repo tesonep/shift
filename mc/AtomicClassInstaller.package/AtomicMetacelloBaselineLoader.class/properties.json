@@ -14,5 +14,5 @@
 	"name" : "AtomicMetacelloBaselineLoader",
 	"pools" : [
 		 ],
-	"super" : "AbstractClassInstaller",
+	"super" : "Object",
 	"type" : "normal" }

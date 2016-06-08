@@ -1,6 +1,8 @@
 as yet unclassified
 make: aBlock
-	| builder |
+	| builder result |
 	builder := self uniqueInstance builder.
 	aBlock value: builder.
-	^ builder build
+	result := builder build.
+	self uniqueInstance autocommit ifTrue:[ self commit].
+	^ result.

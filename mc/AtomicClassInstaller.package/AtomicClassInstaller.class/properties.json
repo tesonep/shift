@@ -18,7 +18,8 @@
 		"oldOrganizer",
 		"newOrganizer",
 		"objectMigratorProvider",
-		"alreadyCommited" ],
+		"alreadyCommited",
+		"autocommit" ],
 	"name" : "AtomicClassInstaller",
 	"pools" : [
 		 ],
