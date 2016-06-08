@@ -1,6 +1,6 @@
 test class creation
 buildClassWithClassVariable
-	PharoClassInstaller
+	Smalltalk classInstaller
 		make: [ :builder | 
 			builder
 				name: #ClassWithClassVariable;

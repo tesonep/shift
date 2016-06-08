@@ -6,5 +6,6 @@ tearDown
 	self removeClassIfExists:#OtherClass.
 	self removeClassIfExists:#OtherSubClass.	
 	self removeClassIfExists:#SecondClass.	
+	self removeClassIfExists: #ClassWithClassVariable.
 	
 	super tearDown.

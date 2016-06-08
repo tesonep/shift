@@ -1,6 +1,6 @@
 test class creation
 buildOtherSubClass
-	PharoClassInstaller
+	Smalltalk classInstaller
 		make: [ :builder | 
 			builder
 				name: #OtherSubClass;

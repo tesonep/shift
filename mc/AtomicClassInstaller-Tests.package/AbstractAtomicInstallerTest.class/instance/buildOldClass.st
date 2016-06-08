@@ -1,6 +1,6 @@
 test class creation
 buildOldClass
-	PharoClassInstaller
+	Smalltalk classInstaller
 		make: [ :builder | 
 			builder
 				name: #OldClass;
