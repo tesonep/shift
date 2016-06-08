@@ -19,4 +19,7 @@ checkTokyoDB
 	testClasses do: [ :e | e addToSuiteFromSelectors: suite ].
 	result := suite run.
 	self assert: result errors size equals: 0.
-	self assert: result failures size equals: 0
+	self assert: result failures size equals: 0.
+	
+	" Force the collection of the handle of the database"
+	Smalltalk garbageCollectMost.
