@@ -14,6 +14,7 @@ testPullUpVariable
 	mcVersion := mcRepo versionFrom: self targetVersion.
 	patch := AtomicPatch fromMCVersions: {mcVersion}.
 	loader := AtomicLoader new.
+
 	loader loadPatch: patch.
 	
 	objects do:[:e | self assert: e second equals: e first someMessage].
