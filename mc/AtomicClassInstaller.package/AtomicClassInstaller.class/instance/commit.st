@@ -1,7 +1,7 @@
 actions
 commit	
 	alreadyCommited ifTrue:[ self error:'It should have been reseted'].
-	
+		
 	oldObjects := OrderedCollection new.
 	newObjects := OrderedCollection new.
 	objectsToMigrate := OrderedCollection new.
@@ -25,11 +25,6 @@ commit
 			oldObjects add: a key. 
 			newObjects add: a value.
 		].
-
-		changedClasses removeAll.
-		objectsToMigrate removeAll.
-		
-		newClasses removeAll.
 				
 		oldObjects add:Smalltalk globals.
 		newObjects add:newEnvironment.
@@ -53,5 +48,12 @@ commit
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
 		  
 	] valueUnpreemptively.
+
+self assert:[changedClasses values allSatisfy: [:kv | kv key == kv value ]].
+self assert:[Smalltalk garbageCollect. (changedClasses values collect:#key thenSelect:#isMeta) allSatisfy: [:e | e allInstances size = 1]].
+
+changedClasses removeAll.
+newClasses removeAll.
+objectsToMigrate removeAll.
 
 self afterCommit.

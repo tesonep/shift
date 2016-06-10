@@ -4,6 +4,8 @@ updateLayoutInSubClassesFrom: oldClass to:newClass
 	oldSlotScope := oldClass layout slotScope.
 	newSlotScope := newClass layout slotScope.
 
-	newClass allSubclassesDo:[:e|
+	newClass subclassesDo:[:e|
+		self assert:[self isChangedClass:e].
 		self replaceSlotScope: oldSlotScope to:newSlotScope on: e.
+		self assert:[e classLayout checkIntegrity. true.]
 	]

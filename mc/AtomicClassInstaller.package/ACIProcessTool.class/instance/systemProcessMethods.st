@@ -6,4 +6,5 @@ systemProcessMethods
 	(#'ProcessorScheduler class' -> #idleProcess).
 	(#'WeakArray class' -> #finalizationProcess).
 	(#OSSVMProcess -> #initializeChildWatcher).
-	(#DelayMicrosecondScheduler -> #runTimerEventLoop)}
+	(#DelayMicrosecondScheduler -> #runTimerEventLoop).
+	(#DelayMillisecondScheduler -> #runTimerEventLoop)}

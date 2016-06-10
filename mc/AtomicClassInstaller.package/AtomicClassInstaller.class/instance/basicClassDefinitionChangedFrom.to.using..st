@@ -9,3 +9,5 @@ basicClassDefinitionChangedFrom: oldClass to: newClass using: classModification
 	oldClass superclass == newClass superclass ifFalse: [ 
 		self superclassChangedFrom:oldClass to: newClass by: classModification.
 	].
+	"Handle the changes in the layout"
+	self updateLayoutInSubClassesFrom: oldClass to:newClass.

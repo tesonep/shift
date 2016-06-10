@@ -3,7 +3,8 @@
 	"classinstvars" : [
 		"uniqueInstance" ],
 	"classvars" : [
-		"AssertActive" ],
+		"AssertActive",
+		"Autocommit" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"innerClassInstaller",
@@ -18,8 +19,7 @@
 		"oldOrganizer",
 		"newOrganizer",
 		"objectMigratorProvider",
-		"alreadyCommited",
-		"autocommit" ],
+		"alreadyCommited" ],
 	"name" : "AtomicClassInstaller",
 	"pools" : [
 		 ],

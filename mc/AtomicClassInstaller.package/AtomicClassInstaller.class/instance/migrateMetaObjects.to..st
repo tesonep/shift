@@ -21,4 +21,4 @@ migrateMetaObjects: oldClass to: newClass
 		result at: i put: new 
 	].	
 	
-	oldInstances elementsExchangeIdentityWith: result. 
+	oldInstances elementsForwardIdentityTo: result copyHash:true. 
