@@ -1,4 +1,4 @@
 testing
 modifiesSuperclass
 
-	^ (target superclass name = superclass name) not
+	^ (target superclass == superclass) not
