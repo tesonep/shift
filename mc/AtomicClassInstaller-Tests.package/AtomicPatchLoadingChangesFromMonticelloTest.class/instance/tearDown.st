@@ -15,4 +15,5 @@ tearDown
 			tag classes do: [ :e | tag removeClass: e ].
 			tag removeFromPackage ].
 	
+	AtomicClassInstaller autocommit: true.
 	super tearDown

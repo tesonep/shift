@@ -9,4 +9,5 @@ tearDown
 
 	(MCWorkingCopy forPackage: (MCPackage named: 'TokyoDB')) unload .
 
+	AtomicClassInstaller autocommit: true.
 	super tearDown

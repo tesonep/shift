@@ -8,4 +8,6 @@ tearDown
 	self removeClassIfExists:#SecondClass.	
 	self removeClassIfExists: #ClassWithClassVariable.
 	
+	AtomicClassInstaller autocommit: true.
+	
 	super tearDown.
