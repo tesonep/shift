@@ -6,6 +6,8 @@ baseline: spec
 		do:
 			[ 
 			spec package: 'Slot'.
+			spec package: 'Slot-Tests'.
+			
 			spec package: 'AtomicClassInstaller'.
 			spec package: 'AtomicClassInstaller-Tests' with:[ spec requires: #core ].	
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
@@ -13,4 +15,4 @@ baseline: spec
 				group: 'core' with: #(Slot AtomicClassInstaller);
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
-				group: 'tests' with: #('AtomicClassInstaller-Tests') ]
+				group: 'tests' with: #('AtomicClassInstaller-Tests' 'Slot-Tests') ]
