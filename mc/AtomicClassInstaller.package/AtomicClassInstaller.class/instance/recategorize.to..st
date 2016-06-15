@@ -1,4 +1,11 @@
 notifications
 recategorize: newClass to: category
-	newClass basicCategory:category.
-	CategorizeClass for: self class: newClass newCategory: category asSymbol
+	| oldCategory |
+	oldCategory := newClass category.
+	newClass basicCategory: category.
+	
+	CategorizeClass
+		for: self
+		class: newClass
+		oldCategory: oldCategory
+		newCategory: category asSymbol

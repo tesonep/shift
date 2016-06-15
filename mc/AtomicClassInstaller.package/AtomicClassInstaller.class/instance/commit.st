@@ -38,10 +38,13 @@ commit
 				] 
 		].
 
+		oldObjects add:oldRPackageOrganizer.
+		newObjects add:newRPackageOrganizer.
+
 		oldObjects add:oldOrganizer.
 		newObjects add:newOrganizer.
 		
-		oldObjects with:newObjects do:[ :a :b | self assert:( a == b ) not].
+		oldObjects with:newObjects do:[ :a :b | self assert:[( a == b ) not]].
 		self assert: [oldObjects allSatisfy: #isNotNil] .
 		self assert: [newObjects allSatisfy: #isNotNil] .
 																	
@@ -55,5 +58,3 @@ self assert:[Smalltalk garbageCollect. (changedClasses values collect:#key thenS
 changedClasses removeAll.
 newClasses removeAll.
 objectsToMigrate removeAll.
-
-self afterCommit.

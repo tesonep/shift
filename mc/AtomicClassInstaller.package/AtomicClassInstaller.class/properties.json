@@ -1,5 +1,5 @@
 {
-	"category" : "AtomicClassInstaller-AtomicClassInstaller",
+	"category" : "AtomicClassInstaller",
 	"classinstvars" : [
 		"uniqueInstance" ],
 	"classvars" : [
@@ -19,7 +19,9 @@
 		"oldOrganizer",
 		"newOrganizer",
 		"objectMigratorProvider",
-		"alreadyCommited" ],
+		"alreadyCommited",
+		"newRPackageOrganizer",
+		"oldRPackageOrganizer" ],
 	"name" : "AtomicClassInstaller",
 	"pools" : [
 		 ],

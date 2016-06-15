@@ -11,7 +11,7 @@ classAt: name ifAbsent: aBlockClosure
 			 
 			aNewClass := self copyClass: anOldClass.
 			
-			self assert:(aNewClass class allInstances includes: aNewClass).
+			self assert:[aNewClass class allInstances includes: aNewClass].
 						
 			^aNewClass.  
 	].

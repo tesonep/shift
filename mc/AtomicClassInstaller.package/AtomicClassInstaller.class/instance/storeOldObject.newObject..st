@@ -7,7 +7,7 @@ storeOldObject: oldObject newObject: newObject
 		indexOf: oldObject
 		ifAbsent: [ oldObjects add: oldObject.
 			newObjects add: newObject.
-			self assert: oldObjects size = newObjects size.
+			self assert: [oldObjects size = newObjects size].
 			^ self
 			].
 	newObjects at: idx put: newObject

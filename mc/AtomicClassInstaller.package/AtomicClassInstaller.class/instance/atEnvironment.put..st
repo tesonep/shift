@@ -12,5 +12,5 @@ atEnvironment: aName put: aValue
 		ifTrue: [ ^ newEnvironment at: aName put: aValue ]
 		ifFalse: [ newEnvironment removeKey: aName.
 			newEnvironment at: aName put: aValue.
-			self assert: (newEnvironment associationAt: aName) ~~ oldAssoc.
+			self assert: [(newEnvironment associationAt: aName) ~~ oldAssoc].
 			^ aValue ]
