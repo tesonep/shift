@@ -15,6 +15,8 @@ impact
 		suspendAllWhile: [ oldCategory
 				ifNotNil: [ oldPackage := packageOrganizer packageMatchingExtensionName: oldCategory.
 					newPackage moveClass: modifiedClass fromPackage: oldPackage toTag: tag ]
-				ifNil: [ newPackage importClass: modifiedClass inTag: tag ] ].
-			
+				ifNil: [ 
+					newPackage addClassDefinitionName: modifiedClass name toClassTag: tag name ].
+				 ].
+	self assert:[ packageOrganizer packageOf: modifiedClass == newPackage ]. 
 	^ self.
