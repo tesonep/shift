@@ -1,3 +1,7 @@
 public
 apply
-	 self installer packageOrganizer checkPackageExistsOrRegister:package
+	| organizer |
+	organizer := self installer packageOrganizer.
+	(organizer packages
+		anySatisfy: [ :each | organizer category: package matches: each packageName ])
+		ifFalse: [ organizer registerPackage: (RPackage named: package capitalized) register ]
