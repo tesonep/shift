@@ -10,4 +10,6 @@ tearDown
 	
 	AtomicClassInstaller autocommit: true.
 	
+	Smalltalk environment organization assertInvariant.
+	
 	super tearDown.
