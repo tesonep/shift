@@ -1,3 +1,3 @@
 public
 apply
-	 self class package organizer checkPackageExistsOrRegister:package
+	 self installer packageOrganizer checkPackageExistsOrRegister:package

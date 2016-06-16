@@ -10,6 +10,7 @@ commit
 		alreadyCommited := true.
 		oldOrganizer := Smalltalk globals organization.
 		newOrganizer := oldOrganizer copy.
+		newOrganizer environment: newEnvironment.
 	
 		operations do:#impact.
 		operations removeAll.
