@@ -1,5 +1,5 @@
 accessing
 assert: aValuable
 	AtomicClassInstaller isAssertActive ifTrue:[
-		super assert:aValuable.	
+		super assert:aValuable description: aValuable asString .	
 	]
