@@ -9,7 +9,7 @@ tearDown
 	self removeClassIfExists: #ClassWithClassVariable.
 	
 	AtomicClassInstaller autocommit: true.
-	
-	Smalltalk environment organization assertInvariant.
+
+	SystemAnnouncer uniqueInstance unsubscribe: self.
 	
 	super tearDown.

@@ -31,6 +31,8 @@ testModificationOldClass
 	self assert: (class methods anySatisfy: [:mOld | mOld selector = #thirdVariable ]).	
 	self assert: (class slots anySatisfy: [:slot | slot name = #thirdVariable ]).		
 	
+	self assertNonAnnouncements.
+	
 	AtomicClassInstaller commit.
 
 	self assert: (self oldClass methods anySatisfy: [:mOld | mOld selector = #thirdVariable ]).	

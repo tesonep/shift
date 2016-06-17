@@ -1,6 +1,8 @@
 running
 setUp
 	super setUp.
+
+	receivedAnnouncements := OrderedCollection new.
 	
 	AtomicClassInstaller reset.
 	
@@ -13,3 +15,5 @@ setUp
 	
 	AtomicClassInstaller reset.
 	AtomicClassInstaller autocommit: false.
+
+	SystemAnnouncer uniqueInstance weak when: Announcement send: #announcementReceived: to: self. 

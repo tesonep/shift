@@ -25,4 +25,4 @@ testModificationOldClassWithMigrator
 	self assert: obj1 thirdVariable = 33.
 
 	self assert: obj1 firstVariable = 24.
-	self assert: obj1 secondVariable = 17
+	self assert: obj1 secondVariable = 17.

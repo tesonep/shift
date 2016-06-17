@@ -19,6 +19,8 @@ testRemoveTrait
 	self assert: (self oldComparableClass canUnderstand: #min:).	
 	self deny: (Object subclasses includes: class).
 	
+	self assertNonAnnouncements.
+		
 	AtomicClassInstaller commit.
 	
 	self deny: (TComparable users includes: self oldComparableClass) .

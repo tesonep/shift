@@ -16,6 +16,8 @@ testNewClassWithTrait
 	self deny: (Object subclasses includes: class).
 	self deny: (self environment includesKey: #NewClassWithTrait).
 	
+	self assertNonAnnouncements.
+	
 	AtomicClassInstaller commit.
 	
 	self assert: (TComparable users includes: self newClassWithTrait) .

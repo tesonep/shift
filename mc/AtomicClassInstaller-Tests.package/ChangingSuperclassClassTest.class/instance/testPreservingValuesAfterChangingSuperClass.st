@@ -13,7 +13,8 @@ testPreservingValuesAfterChangingSuperClass
 				superclass: (builder classNamed:#OldClass);
 				slots: #(aVariable);
 				category: 'AtomicClassInstaller-Tests' ].
-						
+
+	self assertNonAnnouncements.						
 	AtomicClassInstaller commit.
 		
 	self assert: obj class instSize equals: 3.

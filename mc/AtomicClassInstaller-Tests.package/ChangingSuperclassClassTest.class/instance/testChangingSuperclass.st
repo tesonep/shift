@@ -20,6 +20,7 @@ testChangingSuperclass
 	self deny: (self oldClass subclasses includes: class).
 	self assert: (Object subclasses includes: self oldClass).
 	
+	self assertNonAnnouncements.
 	AtomicClassInstaller commit.
 		
 	self assert: self otherClass equals: class.

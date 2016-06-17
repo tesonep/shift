@@ -17,6 +17,8 @@ testCreationOfNewClass
 			^ a.
 	'.
 	
+	self assertNonAnnouncements.
+	
 	AtomicClassInstaller commit.
 	
 	self assert: (Object subclasses includes: class).

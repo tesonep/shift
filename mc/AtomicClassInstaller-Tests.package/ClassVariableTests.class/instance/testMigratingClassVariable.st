@@ -20,7 +20,8 @@ testMigratingClassVariable
 	class class compile:'otherClassVariable:aValue 
 		otherClassVariable := aValue
 	'.
-		
+
+	self assertNonAnnouncements.		
 	AtomicClassInstaller commit.
 	
 	self classWithClassVariable perform: #otherClassVariable: with: 42. 
