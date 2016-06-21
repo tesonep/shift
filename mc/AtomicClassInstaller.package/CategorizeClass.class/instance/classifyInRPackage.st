@@ -1,3 +1,3 @@
 actions
 classifyInRPackage
-	SystemAnnouncer uniqueInstance suspendAllWhile: [ self doClassifyInRPackage ]
+	self doClassifyInRPackage

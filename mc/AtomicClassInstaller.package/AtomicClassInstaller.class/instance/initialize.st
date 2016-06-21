@@ -6,6 +6,7 @@ initialize
 	newClasses := OrderedCollection new.
 	operations := OrderedCollection new.
 	alreadyCommited := false.
+	storedAnnouncements := OrderedCollection new.
 	
 	objectMigratorProvider := ACIDefaultObjectMigratorProvider new.
 	

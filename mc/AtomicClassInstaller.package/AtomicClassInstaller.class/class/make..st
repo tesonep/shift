@@ -1,13 +1,15 @@
 as yet unclassified
 make: aBlock
-	| builder result |
+	| builder result announcements |
+	Autocommit ifNil: [ Autocommit := true ].
+	self autocommit ifTrue: [ self reset ].
 	
-	Autocommit ifNil:[Autocommit := true].
-	Autocommit ifTrue:[ self reset].
+	self uniqueInstance storedAnnouncements addAll:(SystemAnnouncer uniqueInstance
+		suspendAllWhileStoring: [ 
+			builder := self uniqueInstance builder.
+			aBlock value: builder.
+			result := builder build 
+		]).
 	
-	builder := self uniqueInstance builder.
-	aBlock value: builder.
-	result := builder build.
-	
-	Autocommit ifTrue:[ self commit].
-	^ result.
+	self autocommit ifTrue: [ self commit ].
+	^ result

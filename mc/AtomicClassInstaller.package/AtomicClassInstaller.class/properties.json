@@ -21,7 +21,8 @@
 		"objectMigratorProvider",
 		"alreadyCommited",
 		"newRPackageOrganizer",
-		"oldRPackageOrganizer" ],
+		"oldRPackageOrganizer",
+		"storedAnnouncements" ],
 	"name" : "AtomicClassInstaller",
 	"pools" : [
 		 ],
