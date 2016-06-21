@@ -7,12 +7,12 @@ baseline: spec
 			[ 
 			spec package: 'Slot'.
 			spec package: 'Slot-Tests'.
-			
+			spec package: 'RPackage-Core'.
 			spec package: 'AtomicClassInstaller'.
 			spec package: 'AtomicClassInstaller-Tests' with:[ spec requires: #core ].	
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
 			spec
-				group: 'core' with: #(Slot AtomicClassInstaller);
+				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
 				group: 'tests' with: #('AtomicClassInstaller-Tests' 'Slot-Tests') ]
