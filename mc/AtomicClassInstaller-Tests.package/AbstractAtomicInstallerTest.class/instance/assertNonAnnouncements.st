@@ -1,3 +1,3 @@
 running
 assertNonAnnouncements
-	self assertCollection: self receivedAnnouncements equals: #().
+	self assertCollection: self receivedAnnouncements equals: #() asOrderedCollection.
