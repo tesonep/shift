@@ -1,3 +1,3 @@
-accessing
+actions
 impact
 	^ self subclassResponsibility.

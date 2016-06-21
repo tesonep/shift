@@ -8,7 +8,10 @@
 	"instvars" : [
 		"modifiedClass",
 		"oldCategory",
-		"newCategory" ],
+		"newCategory",
+		"newPackage",
+		"tag",
+		"oldPackage" ],
 	"name" : "CategorizeClass",
 	"pools" : [
 		 ],
