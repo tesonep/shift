@@ -18,13 +18,13 @@ testModificationOldClass
 	self assert: class superclass equals: self oldClass superclass.
 	self assert: obj1 class = self oldClass.
 	
-	class compile: 'thirdVariable
+	self compile: 'thirdVariable
 			^ thirdVariable.
-	'.
+	' on:class.
 
-	class compile: 'thirdVariable:value
+	self compile: 'thirdVariable:value
 			thirdVariable := value.
-	'.
+	' on:class.
 	
 	self assert: (self oldClass methods noneSatisfy: [:mOld | mOld selector = #thirdVariable ]).
 	self assert: (self oldClass slots noneSatisfy: [:slot | slot name = #thirdVariable ]).

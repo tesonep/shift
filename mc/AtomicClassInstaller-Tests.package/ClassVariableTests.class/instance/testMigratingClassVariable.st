@@ -13,13 +13,13 @@ testMigratingClassVariable
 				category: 'AtomicClassInstaller-Tests'.
 				].
 			
-	class class compile:'otherClassVariable 
+	self compile:'otherClassVariable 
 		^ otherClassVariable
-	'.
+	' on:class class.
 
-	class class compile:'otherClassVariable:aValue 
+	self compile:'otherClassVariable:aValue 
 		otherClassVariable := aValue
-	'.
+	' on:class class.
 
 	self assertNonAnnouncements.		
 	AtomicClassInstaller commit.
