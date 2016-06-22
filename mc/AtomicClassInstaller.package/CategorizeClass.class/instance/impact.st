@@ -1,9 +1,7 @@
 actions
-impact	
-	self classifyInOrganizer.
-	self classifyInRPackage.	
-
-	self assert:[ self newPackage includesClass: modifiedClass ]. 
-	self assert:[ (self packageOrganizer packageOf: modifiedClass) == self newPackage ]. 
-		
-	^ self.
+impact
+	| oldOrganizer |
+	oldOrganizer := SystemOrganization.
+	Smalltalk at: #SystemOrganization put: installer newOrganizer.
+	[ self doImpact ]
+		ensure: [ Smalltalk at: #SystemOrganization put: oldOrganizer ]
