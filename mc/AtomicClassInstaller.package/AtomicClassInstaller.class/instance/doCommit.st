@@ -49,7 +49,7 @@ doCommit
 		self assert: [oldObjects allSatisfy: #isNotNil] .
 		self assert: [newObjects allSatisfy: #isNotNil] .
 																	
-		oldObjects asArray elementsForwardIdentityTo: newObjects asArray.
+		oldObjects asArray elementsForwardIdentityTo: newObjects asArray copyHash: false.
 		  
 	] valueUnpreemptively.
 
