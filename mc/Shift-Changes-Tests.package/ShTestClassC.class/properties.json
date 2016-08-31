@@ -1,0 +1,14 @@
+{
+	"category" : "Shift-Changes-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ShTestClassC",
+	"pools" : [
+		 ],
+	"super" : "ShTestClassB",
+	"type" : "normal" }
