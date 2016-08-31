@@ -8,7 +8,8 @@ baseline: spec
 			spec project: 'Ficus' with: [
 				spec
 					className: #ConfigurationOfFicus;
-					versionString: #'mini';
+					versionString: #'development';
+					loads: #mini;
 					repository: 'http://smalltalkhub.com/mc/MartinDias/Ficus/main' ].
 
 			spec package: 'Slot'.
