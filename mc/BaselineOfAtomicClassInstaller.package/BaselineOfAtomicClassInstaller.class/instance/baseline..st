@@ -5,6 +5,12 @@ baseline: spec
 		for: #pharo
 		do:
 			[ 
+			spec project: 'Ficus' with: [
+				spec
+					className: #ConfigurationOfFicus;
+					versionString: #'mini';
+					repository: 'http://smalltalkhub.com/mc/MartinDias/Ficus/main' ].
+
 			spec package: 'Slot'.
 			spec package: 'Slot-Tests'.
 			spec package: 'RPackage-Core'.
@@ -14,6 +20,7 @@ baseline: spec
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
 			spec package: 'Shift-Changes'.
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
+
 			spec
 				group: 'shift-core' with: #('Shift-Changes');
 				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'Refactoring-Changes' 'shift-core');
