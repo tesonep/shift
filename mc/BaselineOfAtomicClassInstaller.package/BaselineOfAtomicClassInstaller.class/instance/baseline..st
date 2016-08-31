@@ -15,8 +15,8 @@ baseline: spec
 			spec package: 'Shift-Changes'.
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
 			spec
-				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'Refactoring-Changes' 'shift-core');
 				group: 'shift-core' with: #('Shift-Changes');
+				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'Refactoring-Changes' 'shift-core');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
 				group: 'shift-tests' with: #('Shift-Changes-Tests');
