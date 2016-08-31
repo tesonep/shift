@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oneSlot" ],
-	"name" : "ShTestClassA",
+		"oneSlot",
+		"otherSlot" ],
+	"name" : "ShTestClassANew",
 	"pools" : [
 		 ],
 	"super" : "Object",
