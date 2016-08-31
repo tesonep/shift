@@ -12,8 +12,13 @@ baseline: spec
 			spec package: 'AtomicClassInstaller'.
 			spec package: 'AtomicClassInstaller-Tests' with:[ spec requires: #core ].	
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
+			spec package: 'Shift-Changes'.
+			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
 			spec
-				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'Refactoring-Changes');
+				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'Refactoring-Changes' 'shift-core');
+				group: 'shift-core' with: #('Shift-Changes');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
-				group: 'tests' with: #('AtomicClassInstaller-Tests' 'Slot-Tests') ]
+				group: 'shift-tests' with: #('Shift-Changes-Tests');
+				group: 'tests' with: #('AtomicClassInstaller-Tests' 'Slot-Tests' '')				
+			]
