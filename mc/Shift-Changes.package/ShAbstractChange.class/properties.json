@@ -1,0 +1,14 @@
+{
+	"category" : "Shift-Changes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ShAbstractChange",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

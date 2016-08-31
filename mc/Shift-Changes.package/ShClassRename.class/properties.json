@@ -1,0 +1,15 @@
+{
+	"category" : "Shift-Changes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oldName",
+		"newName" ],
+	"name" : "ShClassRename",
+	"pools" : [
+		 ],
+	"super" : "ShAbstractChange",
+	"type" : "normal" }

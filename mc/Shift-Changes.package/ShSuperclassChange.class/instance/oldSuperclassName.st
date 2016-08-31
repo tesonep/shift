@@ -1,0 +1,3 @@
+accessing
+oldSuperclassName
+	^ oldSuperclassName
