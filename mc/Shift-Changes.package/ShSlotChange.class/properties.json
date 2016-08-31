@@ -1,0 +1,17 @@
+{
+	"category" : "Shift-Changes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"oldName",
+		"newName",
+		"oldType",
+		"newType" ],
+	"name" : "ShSlotChange",
+	"pools" : [
+		 ],
+	"super" : "ShAbstractChange",
+	"type" : "normal" }
