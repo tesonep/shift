@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oldSuperclassName",
-		"newSuperclassName" ],
-	"name" : "ShSuperclassChange",
+		 ],
+	"name" : "ShAbstractSingleChange",
 	"pools" : [
 		 ],
-	"super" : "ShAbstractSingleChange",
+	"super" : "ShAbstractChange",
 	"type" : "normal" }

@@ -11,5 +11,5 @@
 	"name" : "ShClassRename",
 	"pools" : [
 		 ],
-	"super" : "ShAbstractChange",
+	"super" : "ShAbstractSingleChange",
 	"type" : "normal" }
