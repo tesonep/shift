@@ -20,5 +20,5 @@ baseline: spec
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
 				group: 'shift-tests' with: #('Shift-Changes-Tests');
-				group: 'tests' with: #('AtomicClassInstaller-Tests' 'Slot-Tests' '')				
+				group: 'tests' with: #('AtomicClassInstaller-Tests' 'Slot-Tests' 'shift-tests')				
 			]
