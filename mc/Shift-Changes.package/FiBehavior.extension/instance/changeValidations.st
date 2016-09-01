@@ -1,3 +1,3 @@
 *Shift-Changes
 changeValidations
-	^ super changeValidations  ,  { ShClassRename. ShSuperclassChange }
+	^ super changeValidations  ,  { ShClassRename. ShSuperclassChange. ShSlotChange }
