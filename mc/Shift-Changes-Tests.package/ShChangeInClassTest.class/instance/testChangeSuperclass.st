@@ -1,8 +1,8 @@
 as yet unclassified
 testChangeSuperclass
 	| old new change |
-	old := ShTestClassA asRingDefinition.
-	new := ShTestClassC asRingDefinition.
+	old := self shTestClassA.
+	new := self shTestClassC.
 	results := old compareTo: new.
 	change := results
 		detect: [ :e | e class = ShSuperclassChange ]
