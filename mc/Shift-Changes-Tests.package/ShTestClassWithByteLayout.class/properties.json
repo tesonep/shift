@@ -1,0 +1,14 @@
+{
+	"category" : "Shift-Changes-Tests-TestClasses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ShTestClassWithByteLayout",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "bytes" }
