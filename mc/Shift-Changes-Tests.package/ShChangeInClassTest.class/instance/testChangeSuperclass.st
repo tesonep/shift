@@ -8,5 +8,5 @@ testChangeSuperclass
 		detect: [ :e | e class = ShSuperclassChange ]
 		ifNone: [ self fail: 'It should have detected the change' ].
 
-	self assert: change oldSuperclassName equals: #Object.
-	self assert: change newSuperclassName equals: #ShTestClassB.
+	self assert: change oldValue equals: #Object.
+	self assert: change newValue equals: #ShTestClassB.

@@ -7,5 +7,5 @@ testChangeName
 	changeNameDifference := results
 		detect: [ :e | e class = ShClassRename ]
 		ifNone: [ self fail: 'It should have detected the change in the name' ].
-	self assert: changeNameDifference oldName equals: #ShTestClassA.
-	self assert: changeNameDifference newName equals: #ShTestClassB
+	self assert: changeNameDifference oldValue equals: #ShTestClassA.
+	self assert: changeNameDifference newValue equals: #ShTestClassB

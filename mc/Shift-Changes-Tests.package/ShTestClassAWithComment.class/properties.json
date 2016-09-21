@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PabloTesone 9/21/2016 15:22",
+	"commentStamp" : "PabloTesone 9/21/2016 15:23",
 	"instvars" : [
 		"oneSlot" ],
-	"name" : "ShTestClassA",
+	"name" : "ShTestClassAWithComment",
 	"pools" : [
 		 ],
 	"super" : "Object",
