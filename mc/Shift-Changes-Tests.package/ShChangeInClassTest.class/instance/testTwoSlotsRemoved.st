@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testTwoSlotsRemoved
 	| old new changesInSlots slotChange |
 	old := self shTestClassANew.
@@ -14,9 +14,11 @@ testTwoSlotsRemoved
 	self assert: slotChange class equals: ShSlotRemoved.
 	self assert: slotChange slotName equals: #otherSlot.
 	self assert: slotChange slotType equals: #InstanceVariableSlot.
+	self assert: slotChange slotSide equals: #instance.
 	
 	slotChange := changesInSlots at:2.
 
 	self assert: slotChange class equals: ShSlotRemoved.
 	self assert: slotChange slotName equals: #oneSlot.
-	self assert: slotChange slotType equals: #InstanceVariableSlot 
+	self assert: slotChange slotType equals: #InstanceVariableSlot.
+	self assert: slotChange slotSide equals: #instance.

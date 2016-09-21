@@ -3,12 +3,11 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"AClassPoolEntry" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"otherSlot",
 		"oneSlot" ],
-	"name" : "ShTestClassANew",
+	"name" : "ShTestClassAWithClassPoolEntry",
 	"pools" : [
 		 ],
 	"super" : "Object",

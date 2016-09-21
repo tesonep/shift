@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"results" ],
+		 ],
 	"name" : "ShChangeInClassTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "AbstractShiftChangesTest",
 	"type" : "normal" }

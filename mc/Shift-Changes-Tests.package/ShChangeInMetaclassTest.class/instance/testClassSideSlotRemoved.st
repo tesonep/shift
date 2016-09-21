@@ -1,7 +1,7 @@
 tests
-testSlotRemoved
+testClassSideSlotRemoved
 	| old new changesInSlots slotChange |
-	old := self shTestClassANew.
+	old := self shTestClassAWithClassVariable.
 	new := self shTestClassA.
 	results := old compareTo: new.
 
@@ -12,6 +12,6 @@ testSlotRemoved
 	slotChange := changesInSlots at:1.
 
 	self assert: slotChange class equals: ShSlotRemoved.
-	self assert: slotChange slotName equals: #otherSlot.
+	self assert: slotChange slotName equals: #aClassSideVariable.
 	self assert: slotChange slotType equals: #InstanceVariableSlot.
-	self assert: slotChange slotSide equals: #instance.
+	self assert: slotChange slotSide equals: #metaclass

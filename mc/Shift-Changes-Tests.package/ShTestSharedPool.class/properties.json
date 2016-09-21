@@ -3,13 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"FooValue1" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"otherSlot",
-		"oneSlot" ],
-	"name" : "ShTestClassANew",
+		 ],
+	"name" : "ShTestSharedPool",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SharedPool",
 	"type" : "normal" }

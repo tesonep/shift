@@ -1,3 +1,3 @@
-as yet unclassified
+accessing ficus classes
 shTestClassA
 	^ self lookForFicusClass: #ShTestClassA

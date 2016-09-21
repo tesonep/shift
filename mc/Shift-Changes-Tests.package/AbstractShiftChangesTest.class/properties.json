@@ -1,15 +1,14 @@
 {
-	"category" : "Shift-Changes-Tests-TestClasses",
+	"category" : "Shift-Changes-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"otherSlot",
-		"oneSlot" ],
-	"name" : "ShTestClassANew",
+		"results" ],
+	"name" : "AbstractShiftChangesTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"otherSlot",
 		"oneSlot" ],
-	"name" : "ShTestClassANew",
+	"name" : "ShTestClassAWithSharedPool",
 	"pools" : [
-		 ],
+		"ShTestSharedPool" ],
 	"super" : "Object",
 	"type" : "normal" }

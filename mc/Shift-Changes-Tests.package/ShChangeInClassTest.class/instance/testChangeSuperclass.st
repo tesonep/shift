@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangeSuperclass
 	| old new change |
 	old := self shTestClassA.

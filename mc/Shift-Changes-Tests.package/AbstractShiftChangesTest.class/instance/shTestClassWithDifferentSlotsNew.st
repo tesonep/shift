@@ -1,0 +1,3 @@
+accessing ficus classes
+shTestClassWithDifferentSlotsNew
+	^ self lookForFicusClass: #ShTestClassWithDifferentSlotsNew

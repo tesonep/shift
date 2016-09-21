@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangeName
 	| old new changeNameDifference |
 	old := self shTestClassA.
