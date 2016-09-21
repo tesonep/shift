@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oldComment",
-		"newComment" ],
+		 ],
 	"name" : "ShCommentChange",
 	"pools" : [
 		 ],
