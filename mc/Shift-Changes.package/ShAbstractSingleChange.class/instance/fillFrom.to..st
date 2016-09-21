@@ -1,6 +1,8 @@
 checking change
 fillFrom: oldDefinition to: newDefinition
 	^ self
-		oldValue: (oldDefinition perform: self propertyAccesor);
-		newValue: (newDefinition perform: self propertyAccesor);
+		oldValue: (self valueOf:oldDefinition);
+		newValue: (self valueOf:newDefinition);
+		oldClass: oldDefinition;
+		newClass: newDefinition;
 		yourself

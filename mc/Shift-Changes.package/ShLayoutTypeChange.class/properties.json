@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oldClass",
-		"newClass" ],
-	"name" : "ShAbstractChange",
+		 ],
+	"name" : "ShLayoutTypeChange",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ShAbstractSingleChange",
 	"type" : "normal" }

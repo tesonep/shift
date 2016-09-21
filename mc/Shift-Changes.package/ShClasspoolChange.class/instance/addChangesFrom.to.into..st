@@ -12,6 +12,8 @@ addChangesFrom: oldDefinition to: newDefinition into: results
 						add:
 							(ShClasspoolAdded new
 								entryName: new;
+								oldClass: oldDefinition;
+								newClass: newDefinition;
 								yourself) ] ].
 						
 	oldClassPoolEntries
@@ -22,4 +24,6 @@ addChangesFrom: oldDefinition to: newDefinition into: results
 						add:
 							(ShClasspoolRemoved new
 								entryName: old;
+								oldClass: oldDefinition;
+								newClass: newDefinition;
 								yourself) ] ]

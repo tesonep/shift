@@ -1,3 +1,3 @@
 checking change
-hasChanged:oldDefinition with: newDefinition
-	^ (oldDefinition perform: self propertyAccesor) ~= (newDefinition perform: self propertyAccesor)
+hasChanged: oldDefinition with: newDefinition
+	^ (self valueOf: oldDefinition) ~= (self valueOf: newDefinition)

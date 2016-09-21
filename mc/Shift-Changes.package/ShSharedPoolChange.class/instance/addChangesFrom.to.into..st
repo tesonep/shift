@@ -12,6 +12,8 @@ addChangesFrom: oldDefinition to: newDefinition into: results
 						add:
 							(ShSharedPoolAdded new
 								poolName: new;
+								oldClass: oldDefinition;
+								newClass: newDefinition;
 								yourself) ] ].
 						
 	oldSharedPools
@@ -22,4 +24,6 @@ addChangesFrom: oldDefinition to: newDefinition into: results
 						add:
 							(ShSharedPoolRemoved new
 								poolName: old;
+								oldClass: oldDefinition;
+								newClass: newDefinition;
 								yourself) ] ]
