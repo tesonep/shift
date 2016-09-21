@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"slotSide" ],
-	"name" : "ShSlotChange",
+		 ],
+	"name" : "ShClasspoolRemoved",
 	"pools" : [
 		 ],
-	"super" : "ShAbstractChange",
+	"super" : "ShClasspoolChange",
 	"type" : "normal" }

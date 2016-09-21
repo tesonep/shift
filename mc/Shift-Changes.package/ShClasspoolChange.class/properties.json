@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"slotSide" ],
-	"name" : "ShSlotChange",
+		"entryName" ],
+	"name" : "ShClasspoolChange",
 	"pools" : [
 		 ],
 	"super" : "ShAbstractChange",

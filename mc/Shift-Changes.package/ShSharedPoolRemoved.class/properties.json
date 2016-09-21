@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"slotSide" ],
-	"name" : "ShSlotChange",
+		 ],
+	"name" : "ShSharedPoolRemoved",
 	"pools" : [
 		 ],
-	"super" : "ShAbstractChange",
+	"super" : "ShSharedPoolChange",
 	"type" : "normal" }

@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"slotSide" ],
-	"name" : "ShSlotChange",
+		"slotName",
+		"oldSlotType",
+		"newSlotType" ],
+	"name" : "ShSlotTypeChanged",
 	"pools" : [
 		 ],
-	"super" : "ShAbstractChange",
+	"super" : "ShSlotChange",
 	"type" : "normal" }
