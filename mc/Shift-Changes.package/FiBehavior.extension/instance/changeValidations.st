@@ -1,9 +1,7 @@
 *Shift-Changes
 changeValidations
-	^ super changeValidations
+	^ super changeValidations , ShAbstractSingleChange allSubclasses
 		,
-			{ShClassRename.
-			ShSuperclassChange.
-			ShSlotChange.
+			{ShSlotChange.
 			ShClasspoolChange.
 			ShSharedPoolChange}

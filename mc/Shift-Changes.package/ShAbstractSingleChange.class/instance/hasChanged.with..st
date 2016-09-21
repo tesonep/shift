@@ -1,3 +1,3 @@
 checking change
 hasChanged:oldDefinition with: newDefinition
-	^ self subclassResponsibility 
+	^ (oldDefinition perform: self propertyAccesor) ~= (newDefinition perform: self propertyAccesor)

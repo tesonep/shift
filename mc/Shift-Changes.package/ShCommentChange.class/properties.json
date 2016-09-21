@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"oldValue",
-		"newValue" ],
-	"name" : "ShAbstractSingleChange",
+		"oldComment",
+		"newComment" ],
+	"name" : "ShCommentChange",
 	"pools" : [
 		 ],
-	"super" : "ShAbstractChange",
+	"super" : "ShAbstractSingleChange",
 	"type" : "normal" }
