@@ -2,7 +2,7 @@
 
 set -ex
 
-./pharo Pharo.image eval --save "
+./pharo atomicPharoInstaller.image eval --save "
 Deprecation showWarning: false.
 Deprecation raiseWarning: false.
 "
