@@ -7,4 +7,5 @@ systemProcessMethods
 	(#'WeakArray class' -> #finalizationProcess).
 	(#OSSVMProcess -> #initializeChildWatcher).
 	(#DelayMicrosecondScheduler -> #runTimerEventLoop).
-	(#DelayMillisecondScheduler -> #runTimerEventLoop)}
+	(#DelayMillisecondScheduler -> #runTimerEventLoop).
+	(#TestExecutionEnvironment -> #watchDogLoopFor:)}
