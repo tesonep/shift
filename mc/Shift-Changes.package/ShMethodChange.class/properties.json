@@ -1,0 +1,15 @@
+{
+	"category" : "Shift-Changes",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"sourceCode" ],
+	"name" : "ShMethodChange",
+	"pools" : [
+		 ],
+	"super" : "ShAbstractChange",
+	"type" : "normal" }
