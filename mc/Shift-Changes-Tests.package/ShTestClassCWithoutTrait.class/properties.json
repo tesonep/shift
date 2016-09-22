@@ -2,15 +2,13 @@
 	"category" : "Shift-Changes-Tests-TestClassesB",
 	"classinstvars" : [
 		 ],
-	"classtraitcomposition" : "TShTestTrait classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ShTestClassC",
+	"name" : "ShTestClassCWithoutTrait",
 	"pools" : [
 		 ],
 	"super" : "ShTestClassB",
-	"traitcomposition" : "TShTestTrait",
 	"type" : "normal" }
