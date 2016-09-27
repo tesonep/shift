@@ -1,7 +1,7 @@
 as yet unclassified
 testClassWithInheritedSlots
 	builder
-		name: #SHTestEmptyClass;
+		name: #SHTestClassWithInheritedSlots;
 		superclassName: #ShCBClassWithInstanceVariables;
 		slots: #(anSlot anotherSlot).
 

@@ -1,7 +1,7 @@
 as yet unclassified
 testClassWithSlots
 	builder
-		name: #SHTestEmptyClass;
+		name: #SHTestClassWithSlots;
 		slots: #(anSlot anotherSlot).
 
 	result := builder build.
