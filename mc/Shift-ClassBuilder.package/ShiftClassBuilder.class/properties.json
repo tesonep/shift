@@ -1,0 +1,20 @@
+{
+	"category" : "Shift-ClassBuilder",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"environment",
+		"superclassName",
+		"name",
+		"layoutDefinition",
+		"traitComposition",
+		"classTraitComposition",
+		"comment" ],
+	"name" : "ShiftClassBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
