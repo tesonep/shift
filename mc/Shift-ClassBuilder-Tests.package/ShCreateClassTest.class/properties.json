@@ -1,0 +1,15 @@
+{
+	"category" : "Shift-ClassBuilder-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"result",
+		"builder" ],
+	"name" : "ShCreateClassTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

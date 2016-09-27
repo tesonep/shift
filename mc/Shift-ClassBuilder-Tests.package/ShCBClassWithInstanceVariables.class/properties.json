@@ -1,0 +1,14 @@
+{
+	"category" : "Shift-ClassBuilder-Tests-TestClasses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inheritedSlot" ],
+	"name" : "ShCBClassWithInstanceVariables",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
