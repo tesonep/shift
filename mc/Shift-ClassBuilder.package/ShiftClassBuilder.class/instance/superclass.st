@@ -1,3 +1,3 @@
 accessing environment
 superclass
-	^ environment classNamed: (self superclassName)
+	^ buildEnvironment classNamed: (self superclassName)

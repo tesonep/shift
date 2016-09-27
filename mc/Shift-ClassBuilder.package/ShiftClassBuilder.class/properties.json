@@ -6,13 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"environment",
+		"buildEnvironment",
 		"superclassName",
 		"name",
 		"layoutDefinition",
 		"traitComposition",
 		"classTraitComposition",
-		"comment" ],
+		"comment",
+		"commentStamp" ],
 	"name" : "ShiftClassBuilder",
 	"pools" : [
 		 ],

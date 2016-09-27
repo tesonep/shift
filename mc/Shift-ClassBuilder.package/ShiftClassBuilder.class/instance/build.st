@@ -15,5 +15,19 @@ build
 		superclass: self superclass
 		withLayoutType: self layoutType
 		slots: self layoutDefinition slots.
+	
+	newClass environment: self buildEnvironment environmentForClass.
+	
+	self comment ifNotNil: [newClass classComment: self comment stamp: self commentStamp].
+	
+	newClass 
+		declareClassVariables: self layoutDefinition sharedVariables;
+		sharing: self layoutDefinition sharedPoolsString.
+	
+	self installTraitComposition: self traitComposition asTraitComposition on: newClass.
+	self installTraitComposition: self classTraitComposition asTraitComposition on: newMetaclass.
+	
+	newClass classLayout slots do: [ :each | each installingIn: newClass].
+	newClass classLayout slots do: [ :each | each layoutChanged: newClass].
 		
 	^ newClass.

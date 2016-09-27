@@ -1,3 +1,3 @@
 accessing environment
 layoutType
-	^ environment classNamed: self layoutDefinition layoutClass.
+	^ buildEnvironment classNamed: self layoutDefinition layoutClass.
