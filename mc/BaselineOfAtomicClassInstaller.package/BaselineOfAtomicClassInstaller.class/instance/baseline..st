@@ -1,4 +1,4 @@
-as yet unclassified
+baseline
 baseline: spec
 	<baseline>
 	spec
@@ -18,13 +18,15 @@ baseline: spec
 			spec package: 'AtomicClassInstaller-Tests' with:[ spec requires: #core ].	
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
 			spec package: 'Shift-Changes'.
+			spec package: 'Shift-ClassBuilder'.
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
+			spec package: 'Shift-ClassBuilder-Tests' with:[spec requires: #'shift-core'].
 
 			spec
-				group: 'shift-core' with: #('Shift-Changes');
+				group: 'shift-core' with: #('Shift-Changes' 'Shift-ClassBuilder');
 				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'shift-core');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
-				group: 'shift-tests' with: #('Shift-Changes-Tests');
+				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests');
 				group: 'tests' with: #('AtomicClassInstaller-Tests' 'shift-tests')				
 			]
