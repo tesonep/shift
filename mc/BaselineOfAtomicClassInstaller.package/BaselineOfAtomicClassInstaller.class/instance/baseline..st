@@ -13,9 +13,7 @@ baseline: spec
 					repository: 'http://smalltalkhub.com/mc/MartinDias/Ficus/main' ].
 
 			spec package: 'Slot'.
-			spec package: 'Slot-Tests'.
 			spec package: 'RPackage-Core'.
-			spec package: 'Refactoring-Changes'.
 			spec package: 'AtomicClassInstaller'.
 			spec package: 'AtomicClassInstaller-Tests' with:[ spec requires: #core ].	
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
@@ -24,9 +22,9 @@ baseline: spec
 
 			spec
 				group: 'shift-core' with: #('Shift-Changes');
-				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'Refactoring-Changes' 'shift-core');
+				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'shift-core');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
 				group: 'shift-tests' with: #('Shift-Changes-Tests');
-				group: 'tests' with: #('AtomicClassInstaller-Tests' 'Slot-Tests' 'shift-tests')				
+				group: 'tests' with: #('AtomicClassInstaller-Tests' 'shift-tests')				
 			]
