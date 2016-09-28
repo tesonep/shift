@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ShCreateClassTest",
+	"name" : "ShModifyClassTest",
 	"pools" : [
 		 ],
 	"super" : "ShAbstractClassBuilderTest",

@@ -8,4 +8,5 @@ testClassTraitComposition
 	self validateResult.
 	self validateSuperclass: Object.
 	self validateSlots: #().
-   self assert: (result class canUnderstand: #>).
+
+	self validateClassSideMethods: #(>).
