@@ -1,3 +1,3 @@
-accessing environment
+accessing
 superclass
-	^ buildEnvironment classNamed: (self superclassName)
+	^ superclass ifNil:[buildEnvironment classNamed: (self superclassName)]
