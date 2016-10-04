@@ -5,22 +5,22 @@ baseline: spec
 		for: #pharo
 		do:
 			[ 
+			"Small changes in this packages"
+			spec package: 'Slot'.
+			spec package: 'RPackage-Core'.
+			spec package: 'Traits'.
+
 			spec project: 'Ficus' with: [
 				spec
 					className: #ConfigurationOfFicus;
 					versionString: #'development';
 					loads: #mini;
 					repository: 'http://smalltalkhub.com/mc/MartinDias/Ficus/main' ].
-
-			"Small changes in this packages"
-			spec package: 'Slot'.
-			spec package: 'RPackage-Core'.
-			spec package: 'Traits'.
 			
 			spec package: 'AtomicClassInstaller'.
 			spec package: 'AtomicClassInstaller-Tests' with:[ spec requires: #core ].	
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
-			spec package: 'Shift-Changes' with:[spec requires: #'Ficus']..
+			spec package: 'Shift-Changes' with:[spec requires: #'Ficus'].
 			spec package: 'Shift-ClassBuilder'.
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
 			spec package: 'Shift-ClassBuilder-Tests' with:[spec requires: #'shift-core'].
