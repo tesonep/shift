@@ -14,7 +14,7 @@ baseline: spec
 				spec
 					className: #ConfigurationOfFicus;
 					versionString: #'development';
-					loads: #mini;
+					loads: #FicusMonticello;
 					repository: 'http://smalltalkhub.com/mc/MartinDias/Ficus/main' ].
 			
 			spec package: 'AtomicClassInstaller'.
