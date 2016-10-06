@@ -6,6 +6,7 @@ baseline: spec
 		do:
 			[ 
 			"Small changes in this packages"
+			spec package: 'Kernel'.
 			spec package: 'Slot'.
 			spec package: 'RPackage-Core'.
 			spec package: 'Traits'.
