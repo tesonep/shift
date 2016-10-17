@@ -14,7 +14,8 @@
 		"classTraitComposition",
 		"comment",
 		"commentStamp",
-		"superclass" ],
+		"superclass",
+		"category" ],
 	"name" : "ShiftClassBuilder",
 	"pools" : [
 		 ],

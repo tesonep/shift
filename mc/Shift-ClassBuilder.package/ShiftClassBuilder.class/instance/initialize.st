@@ -5,4 +5,3 @@ initialize
 	superclassName := #Object.
 	layoutDefinition := ShLayoutDefinition new.
 	classTraitComposition := ''.
-	traitComposition := ''.

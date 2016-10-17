@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ShSmalltalkGlobalsEnvironment",
+		"environment" ],
+	"name" : "ShGlobalsEnvironment",
 	"pools" : [
 		 ],
-	"super" : "ShGlobalsEnvironment",
+	"super" : "Object",
 	"type" : "normal" }

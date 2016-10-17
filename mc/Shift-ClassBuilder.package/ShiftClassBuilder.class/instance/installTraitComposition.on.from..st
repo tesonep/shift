@@ -1,9 +1,8 @@
 class building
-installTraitComposition: aTraitComposition on: aClass
+installTraitComposition: aTraitComposition on: aClass from: oldClass
 	| oldComposition |
-	(aClass hasTraitComposition not and: [aTraitComposition isEmpty]) ifTrue: [^self].
 	aTraitComposition assertValidUser: aClass.
 
-	oldComposition := aClass traitComposition.
+	oldComposition := oldClass ifNil: [ #() asTraitComposition  ] ifNotNil: [ oldClass traitComposition].
 	aClass traitComposition: aTraitComposition.
 	aClass applyChangesOfNewTraitCompositionReplacing: oldComposition.
