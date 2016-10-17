@@ -1,0 +1,14 @@
+{
+	"category" : "Shift-ClassInstaller",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ShiftAnonymousClassInstaller",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
