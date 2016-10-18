@@ -10,6 +10,7 @@ baseline: spec
 			spec package: 'Slot'.
 			spec package: 'RPackage-Core'.
 			spec package: 'Traits'.
+			spec package: 'Slot-Tests'.
 
 			spec project: 'Ficus' with: [
 				spec
@@ -23,11 +24,12 @@ baseline: spec
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
 			spec package: 'Shift-Changes' with:[spec requires: #'Ficus'].
 			spec package: 'Shift-ClassBuilder'.
+			spec package: 'Shift-ClassInstaller'.
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
 			spec package: 'Shift-ClassBuilder-Tests' with:[spec requires: #'shift-core'].
 
 			spec
-				group: 'shift-core' with: #('Shift-Changes' 'Shift-ClassBuilder');
+				group: 'shift-core' with: #('Shift-Changes' 'Shift-ClassBuilder' 'Shift-ClassInstaller');
 				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'shift-core' 'Traits');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
