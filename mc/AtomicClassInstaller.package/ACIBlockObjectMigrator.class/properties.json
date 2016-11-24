@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"blockCode",
-		"block" ],
+		"block",
+		"newEnvironment",
+		"oldEnvironment" ],
 	"name" : "ACIBlockObjectMigrator",
 	"pools" : [
 		 ],

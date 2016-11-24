@@ -1,4 +1,4 @@
-as yet unclassified
+migration
 basicMigrateInstance: new from: old
 	"Slot migration happens there"
 
