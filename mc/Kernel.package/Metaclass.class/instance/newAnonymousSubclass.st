@@ -1,3 +1,0 @@
-instance creation
-newAnonymousSubclass
-	^self theNonMetaClass newAnonymousSubclass class
