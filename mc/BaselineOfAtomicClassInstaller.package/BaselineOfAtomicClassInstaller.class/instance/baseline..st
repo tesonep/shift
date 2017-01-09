@@ -5,13 +5,6 @@ baseline: spec
 		for: #pharo
 		do:
 			[ 
-			"Small changes in this packages"
-			spec package: 'Kernel'.
-			spec package: 'Slot'.
-			spec package: 'RPackage-Core'.
-			spec package: 'Traits'.
-			spec package: 'Slot-Tests'.
-
 			spec project: 'Ficus' with: [
 				spec
 					className: #ConfigurationOfFicus;
@@ -30,7 +23,7 @@ baseline: spec
 
 			spec
 				group: 'shift-core' with: #('Shift-Changes' 'Shift-ClassBuilder' 'Shift-ClassInstaller');
-				group: 'core' with: #(Slot AtomicClassInstaller 'RPackage-Core' 'shift-core' 'Traits');
+				group: 'core' with: #(AtomicClassInstaller 'shift-core');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
 				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests');
