@@ -1,0 +1,16 @@
+{
+	"category" : "AtomicClassInstaller-AtomicPatch",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"operations",
+		"modifiedClasses",
+		"instanceMigrators" ],
+	"name" : "AtomicPatchBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

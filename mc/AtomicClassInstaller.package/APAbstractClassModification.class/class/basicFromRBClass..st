@@ -6,7 +6,7 @@ basicFromRBClass: aClass
 		slots: (aClass instanceVariableNames collect:[:e | APSlotDefinition name: e type: #InstanceVariableSlot]);
 		sharedSlots: (aClass classVariableNames collect:[:e | APSlotDefinition name: e type: #ClassVariable]);
 		classSlots: (aClass theMetaClass instanceVariableNames collect:[:e | APSlotDefinition name: e type: #InstanceVariableSlot]);
-		sharedPools: (aClass poolDictionaryNames joinUsing: ' ');
+		sharedPools: (aClass sharedPoolNames joinUsing: ' ');
 		category: aClass category;
 		type: #normal;
 		comment: aClass comment;
