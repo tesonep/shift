@@ -8,7 +8,7 @@ baseline: spec
 			spec project: 'Ficus' with: [
 				spec
 					className: #ConfigurationOfFicus;
-					versionString: #'development';
+					versionString: #stable;
 					loads: #FicusMonticello;
 					repository: 'http://smalltalkhub.com/mc/MartinDias/Ficus/main' ].
 			
