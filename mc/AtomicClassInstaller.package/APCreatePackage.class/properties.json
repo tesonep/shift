@@ -1,14 +1,13 @@
 {
-	"category" : "AtomicClassInstaller-AtomicPatchOperations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"package" ],
-	"name" : "APCreatePackage",
-	"pools" : [
-		 ],
 	"super" : "APAbstractPatchOperation",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"package"
+	],
+	"name" : "APCreatePackage",
+	"type" : "normal"
+}

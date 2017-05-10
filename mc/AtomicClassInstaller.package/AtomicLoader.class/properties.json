@@ -1,15 +1,14 @@
 {
-	"category" : "AtomicClassInstaller-Loader",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AtomicClassInstaller-Loader",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"processTool",
-		"patch" ],
+		"patch"
+	],
 	"name" : "AtomicLoader",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

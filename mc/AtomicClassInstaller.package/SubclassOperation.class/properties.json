@@ -1,15 +1,14 @@
 {
-	"category" : "AtomicClassInstaller-Operations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "AtomicClassInstallerOperation",
+	"category" : "AtomicClassInstaller-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"modifiedClass",
-		"superclass" ],
+		"superclass"
+	],
 	"name" : "SubclassOperation",
-	"pools" : [
-		 ],
-	"super" : "AtomicClassInstallerOperation",
-	"type" : "normal" }
+	"type" : "normal"
+}

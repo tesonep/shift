@@ -1,14 +1,11 @@
 {
-	"category" : "AtomicClassInstaller-Monticello",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "AtomicMonticelloRemoveVisitor",
-	"pools" : [
-		 ],
 	"super" : "AtomicMonticelloAbstractVisitor",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-Monticello",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AtomicMonticelloRemoveVisitor",
+	"type" : "normal"
+}

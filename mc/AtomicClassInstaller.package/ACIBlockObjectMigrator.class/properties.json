@@ -1,17 +1,16 @@
 {
-	"category" : "AtomicClassInstaller-Migrators",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "ACIDefaultObjectMigrator",
+	"category" : "AtomicClassInstaller-Migrators",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"blockCode",
 		"block",
 		"newEnvironment",
-		"oldEnvironment" ],
+		"oldEnvironment"
+	],
 	"name" : "ACIBlockObjectMigrator",
-	"pools" : [
-		 ],
-	"super" : "ACIDefaultObjectMigrator",
-	"type" : "normal" }
+	"type" : "normal"
+}

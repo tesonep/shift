@@ -1,14 +1,11 @@
 {
-	"category" : "AtomicClassInstaller-AtomicPatchOperations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "APAddMethod",
-	"pools" : [
-		 ],
 	"super" : "APAbstractMethodModification",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "APAddMethod",
+	"type" : "normal"
+}

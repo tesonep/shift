@@ -1,14 +1,13 @@
 {
-	"category" : "AtomicClassInstaller-AtomicPatchOperations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"originalMethodDefinition" ],
-	"name" : "APModifyMethod",
-	"pools" : [
-		 ],
 	"super" : "APAbstractMethodModification",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"originalMethodDefinition"
+	],
+	"name" : "APModifyMethod",
+	"type" : "normal"
+}

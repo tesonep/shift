@@ -1,14 +1,11 @@
 {
-	"category" : "AtomicClassInstaller-Operations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "RemoveSubclass",
-	"pools" : [
-		 ],
 	"super" : "SubclassOperation",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RemoveSubclass",
+	"type" : "normal"
+}

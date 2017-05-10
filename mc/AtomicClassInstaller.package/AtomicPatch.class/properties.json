@@ -1,17 +1,16 @@
 {
-	"category" : "AtomicClassInstaller-AtomicPatch",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AtomicClassInstaller-AtomicPatch",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"operations",
 		"transformations",
 		"preScript",
-		"postScript" ],
+		"postScript"
+	],
 	"name" : "AtomicPatch",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

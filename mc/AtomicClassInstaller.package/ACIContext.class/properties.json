@@ -1,14 +1,13 @@
 {
-	"category" : "AtomicClassInstaller-Process",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"block" ],
-	"name" : "ACIContext",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-Process",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"block"
+	],
+	"name" : "ACIContext",
+	"type" : "normal"
+}

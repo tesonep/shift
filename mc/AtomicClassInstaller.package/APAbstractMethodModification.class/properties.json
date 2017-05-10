@@ -1,19 +1,18 @@
 {
-	"category" : "AtomicClassInstaller-AtomicPatchOperations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "APAbstractPatchOperation",
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"isMeta",
 		"source",
 		"category",
 		"selector",
 		"modifiedClassName",
-		"timeStamp" ],
+		"timeStamp"
+	],
 	"name" : "APAbstractMethodModification",
-	"pools" : [
-		 ],
-	"super" : "APAbstractPatchOperation",
-	"type" : "normal" }
+	"type" : "normal"
+}

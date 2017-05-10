@@ -1,18 +1,17 @@
 {
-	"category" : "AtomicClassInstaller-Process",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AtomicClassInstaller-Process",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"suspendedLists",
 		"modifiedMethods",
 		"semaphore",
 		"waitingFor",
-		"numberOfWaits" ],
+		"numberOfWaits"
+	],
 	"name" : "ACIProcessTool",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

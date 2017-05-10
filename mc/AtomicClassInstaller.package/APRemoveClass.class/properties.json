@@ -1,14 +1,11 @@
 {
-	"category" : "AtomicClassInstaller-AtomicPatchOperations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "APRemoveClass",
-	"pools" : [
-		 ],
 	"super" : "APAbstractClassModification",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "APRemoveClass",
+	"type" : "normal"
+}

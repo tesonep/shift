@@ -1,11 +1,15 @@
 {
+	"commentStamp" : "PabloTesone 6/22/2016 11:00",
+	"super" : "AbstractClassInstaller",
 	"category" : "AtomicClassInstaller",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		"uniqueInstance"
+	],
+	"pools" : [ ],
 	"classvars" : [
 		"AssertActive",
-		"Autocommit" ],
-	"commentStamp" : "PabloTesone 6/22/2016 11:00",
+		"Autocommit"
+	],
 	"instvars" : [
 		"innerClassInstaller",
 		"changedClasses",
@@ -22,9 +26,8 @@
 		"alreadyCommited",
 		"newRPackageOrganizer",
 		"oldRPackageOrganizer",
-		"storedAnnouncements" ],
+		"storedAnnouncements"
+	],
 	"name" : "AtomicClassInstaller",
-	"pools" : [
-		 ],
-	"super" : "AbstractClassInstaller",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,10 +1,10 @@
 {
-	"category" : "AtomicClassInstaller-AtomicPatchOperations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "APAbstractPatchOperation",
+	"category" : "AtomicClassInstaller-AtomicPatchOperations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"definedClassName",
 		"superclassName",
@@ -17,9 +17,8 @@
 		"comment",
 		"commentStamp",
 		"traitComposition",
-		"classTraitComposition" ],
+		"classTraitComposition"
+	],
 	"name" : "APAbstractClassModification",
-	"pools" : [
-		 ],
-	"super" : "APAbstractPatchOperation",
-	"type" : "normal" }
+	"type" : "normal"
+}

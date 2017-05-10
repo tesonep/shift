@@ -1,14 +1,11 @@
 {
-	"category" : "AtomicClassInstaller-Operations",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "AddUserOfTrait",
-	"pools" : [
-		 ],
 	"super" : "TraitOperation",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "AddUserOfTrait",
+	"type" : "normal"
+}
