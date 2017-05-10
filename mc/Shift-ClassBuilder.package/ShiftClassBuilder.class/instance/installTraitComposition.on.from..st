@@ -1,8 +1,9 @@
 class building
-installTraitComposition: aTraitComposition on: aClass from: oldClass
+installTraitComposition: aTraitComposition on: aClass from: anOldClass
 	| oldComposition |
 	aTraitComposition assertValidUser: aClass.
 
-	oldComposition := oldClass ifNil: [ #() asTraitComposition  ] ifNotNil: [ oldClass traitComposition].
+	oldComposition := anOldClass ifNil: [ #() asTraitComposition ] ifNotNil: [ anOldClass traitComposition ].
+
 	aClass traitComposition: aTraitComposition.
-	aClass applyChangesOfNewTraitCompositionReplacing: oldComposition.
+	aClass applyChangesOfNewTraitCompositionReplacing: oldComposition

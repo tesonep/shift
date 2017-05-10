@@ -1,18 +1,17 @@
 {
-	"category" : "Shift-ClassBuilder",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Shift-ClassBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"layoutClass",
 		"slots",
 		"classSlots",
 		"sharedPools",
-		"sharedVariables" ],
+		"sharedVariables"
+	],
 	"name" : "ShLayoutDefinition",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

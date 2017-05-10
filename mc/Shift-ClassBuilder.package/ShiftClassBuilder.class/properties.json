@@ -1,10 +1,10 @@
 {
-	"category" : "Shift-ClassBuilder",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Shift-ClassBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"buildEnvironment",
 		"superclassName",
@@ -15,9 +15,14 @@
 		"comment",
 		"commentStamp",
 		"superclass",
-		"category" ],
+		"category",
+		"newMetaclass",
+		"newClass",
+		"oldClass",
+		"oldMetaclass",
+		"builderEnhancer",
+		"metaclassClass"
+	],
 	"name" : "ShiftClassBuilder",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

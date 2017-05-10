@@ -1,6 +1,6 @@
 class building
 copyClassSlotsFromExistingClass
-	| oldClass |
-	oldClass := self environment at: name ifAbsent: [ ^ self ].
+	| anOldClass |
+	anOldClass := self environment at: name ifAbsent: [ ^ self ].
 
-	self classSlots: oldClass class classLayout slotScope visibleSlots.
+	self classSlots: anOldClass class classLayout slotScope visibleSlots.

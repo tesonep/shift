@@ -1,14 +1,13 @@
 {
-	"category" : "Shift-ClassInstaller",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"builder" ],
-	"name" : "ShiftClassInstaller",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Shift-ClassInstaller",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"builder"
+	],
+	"name" : "ShiftClassInstaller",
+	"type" : "normal"
+}

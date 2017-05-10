@@ -1,14 +1,11 @@
 {
-	"category" : "Shift-ClassBuilder",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "ShSmalltalkGlobalsEnvironment",
-	"pools" : [
-		 ],
 	"super" : "ShGlobalsEnvironment",
-	"type" : "normal" }
+	"category" : "Shift-ClassBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ShSmalltalkGlobalsEnvironment",
+	"type" : "normal"
+}
