@@ -13,7 +13,9 @@ build
 			newClass basicCategory: oldClass basicCategory.
 			builderEnhancer compileMethodsFor: self. ].
 
-	self installTraits.
+	builderEnhancer afterMethodsCompiled: self.
+	
+	builderEnhancer installTraitsFor: self.
 	self installSlots.
 	
 	^ newClass
