@@ -1,6 +1,10 @@
-as yet unclassified
+building
 make: aBlock
-	| newClass oldClass |
+	| newClass oldClass builder |
+	
+	builder := ShiftClassBuilder new.
+	builder buildEnvironment: ShSmalltalkGlobalsEnvironment new.	
+	
 	aBlock value: builder.
 	newClass := builder build.
 	
@@ -13,5 +17,8 @@ make: aBlock
 	oldClass ifNotNil:[
 		self migrateClassFrom:oldClass to:newClass].
 	
-	self recategorize: newClass  to:  builder category.
+	self recategorize: newClass  to: builder category builder: builder.
+	
+	newClass subclasses do:[:e | self remake: e ].
+	
 	^ newClass.

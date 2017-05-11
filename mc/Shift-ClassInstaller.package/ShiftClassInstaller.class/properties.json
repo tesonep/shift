@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"builder"
-	],
+	"instvars" : [ ],
 	"name" : "ShiftClassInstaller",
 	"type" : "normal"
 }

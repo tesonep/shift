@@ -1,5 +1,5 @@
 as yet unclassified
-recategorize: aClass to: newCategory
+recategorize: aClass to: newCategory builder: builder
 	| oldCategory |
 	oldCategory := aClass basicCategory.
 	oldCategory == newCategory asSymbol

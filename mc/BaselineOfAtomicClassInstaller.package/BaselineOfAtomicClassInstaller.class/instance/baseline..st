@@ -20,12 +20,13 @@ baseline: spec
 			spec package: 'Shift-ClassInstaller'.
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
 			spec package: 'Shift-ClassBuilder-Tests' with:[spec requires: #'shift-core'].
+			spec package: 'Shift-ClassInstaller-Tests' with:[spec requires: #'shift-core'].
 
 			spec
 				group: 'shift-core' with: #('Shift-Changes' 'Shift-ClassBuilder' 'Shift-ClassInstaller');
 				group: 'core' with: #(AtomicClassInstaller 'shift-core');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI');
-				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests');
+				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests' 'Shift-ClassInstaller-Tests');
 				group: 'tests' with: #('AtomicClassInstaller-Tests' 'shift-tests')				
 			]
