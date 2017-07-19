@@ -15,7 +15,6 @@ build
 
 	builderEnhancer afterMethodsCompiled: self.
 	
-	builderEnhancer installTraitsFor: self.
 	self installSlots.
 	
 	^ newClass
