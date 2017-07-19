@@ -1,14 +1,11 @@
 {
-	"category" : "Shift-ClassBuilder-Tests-TestClasses",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "ShCBEmptyClassWithMethods",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "Shift-ClassBuilder-Tests-TestClasses",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ShCBEmptyClassWithMethods",
+	"type" : "normal"
+}

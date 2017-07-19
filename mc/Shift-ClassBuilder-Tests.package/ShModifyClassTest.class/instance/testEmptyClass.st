@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testEmptyClass
 	builder name: #ShCBEmptyClass.
 	result := builder build.

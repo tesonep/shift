@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSharedVariables
 	builder name: #SHClassWithSharedVariable.
 	result := builder

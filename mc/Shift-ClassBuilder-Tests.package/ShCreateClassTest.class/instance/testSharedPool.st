@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSharedPool
 	builder name: #SHClassWithSharedPool.
 	result := builder

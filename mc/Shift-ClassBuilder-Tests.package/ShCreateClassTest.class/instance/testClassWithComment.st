@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testClassWithComment
 	builder name: #SHClassWithComment.
 	result := builder

@@ -1,15 +1,14 @@
 {
-	"category" : "Shift-ClassBuilder-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "PabloTesone 9/27/2016 18:36",
+	"super" : "TestCase",
+	"category" : "Shift-ClassBuilder-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"result",
-		"builder" ],
+		"builder"
+	],
 	"name" : "ShAbstractClassBuilderTest",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}

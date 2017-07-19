@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testClassWithSlots
 	builder
 		name: #SHTestClassWithSlots;
