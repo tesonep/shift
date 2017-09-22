@@ -1,4 +1,4 @@
-class building
+building
 build
 	self createMetaclass.
 	self createClass.

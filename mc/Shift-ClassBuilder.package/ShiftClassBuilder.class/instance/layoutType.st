@@ -1,4 +1,4 @@
-accessing environment
+accessing
 layoutType
 	| layoutType |
 	layoutType := buildEnvironment

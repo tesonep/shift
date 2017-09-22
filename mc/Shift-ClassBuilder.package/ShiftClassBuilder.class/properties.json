@@ -10,8 +10,6 @@
 		"superclassName",
 		"name",
 		"layoutDefinition",
-		"traitComposition",
-		"classTraitComposition",
 		"comment",
 		"commentStamp",
 		"superclass",
@@ -21,7 +19,8 @@
 		"oldClass",
 		"oldMetaclass",
 		"builderEnhancer",
-		"metaclassClass"
+		"metaclassClass",
+		"extensibleProperties"
 	],
 	"name" : "ShiftClassBuilder",
 	"type" : "normal"

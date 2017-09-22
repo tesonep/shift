@@ -1,4 +1,4 @@
-class building
+installing
 createClass
 	newClass := newMetaclass new.
 	newClass setName: self name.
