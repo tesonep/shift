@@ -1,4 +1,4 @@
-class building
+building
 createSharedVariables
 	builderEnhancer 
 		on: newClass

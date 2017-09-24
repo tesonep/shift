@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testWordLayout
 	builder name: #SHClassWithWordLayout.
 	result := builder

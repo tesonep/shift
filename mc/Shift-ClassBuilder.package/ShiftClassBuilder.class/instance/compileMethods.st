@@ -1,3 +1,3 @@
-class building
+compiling
 compileMethods
 	newClass compileAllFrom: oldClass.

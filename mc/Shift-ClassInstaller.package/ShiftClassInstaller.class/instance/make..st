@@ -14,6 +14,8 @@ make: aBlock
 	
 	newClass superclass addSubclass: newClass.
 	
+	builder builderEnhancer beforeMigratingClass: builder installer: self.
+	
 	oldClass ifNotNil:[
 		self migrateClassFrom:oldClass to:newClass].
 	

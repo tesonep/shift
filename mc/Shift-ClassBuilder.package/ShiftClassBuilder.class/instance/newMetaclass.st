@@ -1,3 +1,3 @@
-accessing during build process
+accessing
 newMetaclass
 	^ newMetaclass

@@ -1,4 +1,4 @@
-class building
+building
 installSlots
 	newClass classLayout slots
 		do: [ :each | each installingIn: newClass ].

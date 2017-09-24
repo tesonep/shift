@@ -1,4 +1,4 @@
-class building
+building
 build
 	self createMetaclass.
 	self createClass.
@@ -15,7 +15,6 @@ build
 
 	builderEnhancer afterMethodsCompiled: self.
 	
-	builderEnhancer installTraitsFor: self.
 	self installSlots.
 	
 	^ newClass

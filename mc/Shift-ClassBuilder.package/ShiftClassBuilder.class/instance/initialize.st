@@ -4,5 +4,7 @@ initialize
 	
 	superclassName := #Object.
 	layoutDefinition := ShLayoutDefinition new.
-	classTraitComposition := ''.
-	builderEnhancer := ShDefaultBuilderEnhancer new.
+	builderEnhancer := self class defaultBuildEnhancer new.
+	extensibleProperties := Dictionary new.
+	
+	builderEnhancer initializeBuilder: self.

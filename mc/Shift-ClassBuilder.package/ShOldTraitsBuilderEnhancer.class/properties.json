@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Shift-ClassBuilder-Tests-TestClasses",
+	"super" : "ShDefaultBuilderEnhancer",
+	"category" : "Shift-ClassBuilder",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "ShCBEmptyClass",
+	"name" : "ShOldTraitsBuilderEnhancer",
 	"type" : "normal"
 }
