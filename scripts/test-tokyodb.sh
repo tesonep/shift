@@ -2,7 +2,7 @@
 
 set -ex
 
-git clone --depth=1 https://github.com/estebanlm/tokyodb.git
+git clone --depth=1 https://github.com/tesonep/tokyodb.git -b adapting-to-pharo70
 
 ./pharo Pharo.image eval "
 Metacello new 
