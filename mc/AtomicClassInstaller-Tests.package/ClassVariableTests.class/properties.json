@@ -1,14 +1,11 @@
 {
-	"category" : "AtomicClassInstaller-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "ClassVariableTests",
-	"pools" : [
-		 ],
 	"super" : "AbstractAtomicInstallerTest",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ClassVariableTests",
+	"type" : "normal"
+}
