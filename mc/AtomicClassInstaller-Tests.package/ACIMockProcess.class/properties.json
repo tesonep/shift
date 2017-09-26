@@ -1,15 +1,14 @@
 {
-	"category" : "AtomicClassInstaller-Tests-Process",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AtomicClassInstaller-Tests-Process",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"semaphore",
-		"returnValue" ],
+		"returnValue"
+	],
 	"name" : "ACIMockProcess",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

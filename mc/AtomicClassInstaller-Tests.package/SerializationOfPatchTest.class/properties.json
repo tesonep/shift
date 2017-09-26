@@ -1,14 +1,11 @@
 {
-	"category" : "AtomicClassInstaller-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "SerializationOfPatchTest",
-	"pools" : [
-		 ],
 	"super" : "AbstractAtomicPatchTest",
-	"type" : "normal" }
+	"category" : "AtomicClassInstaller-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SerializationOfPatchTest",
+	"type" : "normal"
+}

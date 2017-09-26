@@ -1,15 +1,14 @@
 {
-	"category" : "AtomicClassInstaller-Tests",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "AbstractAtomicPatchTest",
+	"category" : "AtomicClassInstaller-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"str",
-		"p2" ],
+		"p2"
+	],
 	"name" : "ChangingClassUsingPatchTest",
-	"pools" : [
-		 ],
-	"super" : "AbstractAtomicPatchTest",
-	"type" : "normal" }
+	"type" : "normal"
+}

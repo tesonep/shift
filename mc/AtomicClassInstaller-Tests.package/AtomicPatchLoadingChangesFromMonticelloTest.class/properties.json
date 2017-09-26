@@ -1,16 +1,15 @@
 {
-	"category" : "AtomicClassInstaller-Tests-Metacello",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "AtomicClassInstaller-Tests-Metacello",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"mcLoader",
 		"atomicPatch",
-		"mcRepo" ],
+		"mcRepo"
+	],
 	"name" : "AtomicPatchLoadingChangesFromMonticelloTest",
-	"pools" : [
-		 ],
-	"super" : "TestCase",
-	"type" : "normal" }
+	"type" : "normal"
+}
