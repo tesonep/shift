@@ -18,7 +18,7 @@ baseline: spec
 			spec package: 'Shift-ClassBuilder'.
 			spec package: 'Shift-ClassInstaller'.
 
-			spec package: 'Shift-Changes' with:[spec requires: #'shift-core'].
+			spec package: 'Shift-Changes'.
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
 
 			spec package: 'Shift-Changes-Ficus' with:[spec requires: #'Ficus'].
