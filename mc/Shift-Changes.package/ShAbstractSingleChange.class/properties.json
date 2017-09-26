@@ -5,7 +5,13 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"oldValue",
+		"newValue",
+		"builderAccessor",
+		"classAccessor",
+		"comparer"
+	],
 	"name" : "ShAbstractSingleChange",
 	"type" : "normal"
 }
