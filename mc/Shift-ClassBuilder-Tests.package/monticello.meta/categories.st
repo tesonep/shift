@@ -1,2 +1,2 @@
 SystemOrganization addCategory: #'Shift-ClassBuilder-Tests'!
-SystemOrganization addCategory: 'Shift-ClassBuilder-Tests-TestClasses'!
+SystemOrganization addCategory: #'Shift-ClassBuilder-Tests-TestClasses'!
