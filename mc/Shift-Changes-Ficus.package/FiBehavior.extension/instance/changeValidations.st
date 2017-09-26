@@ -1,7 +1,7 @@
 *Shift-Changes-Ficus
 changeValidations
-	^ super changeValidations , ShAbstractSingleChange allSubclasses
+	^ super changeValidations , ShFAbstractSingleChange allSubclasses
 		,
-			{ShSlotChange.
-			ShClasspoolChange.
-			ShSharedPoolChange}
+			{ShFSlotChange.
+			ShFClasspoolChange.
+			ShFSharedPoolChange}

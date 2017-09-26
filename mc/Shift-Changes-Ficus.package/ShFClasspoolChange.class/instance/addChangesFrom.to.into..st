@@ -10,7 +10,7 @@ addChangesFrom: oldDefinition to: newDefinition into: results
 				detect: [ :old | old = new ]
 				ifNone: [ results
 						add:
-							(ShClasspoolAdded new
+							(ShFClasspoolAdded new
 								entryName: new;
 								oldClass: oldDefinition;
 								newClass: newDefinition;
@@ -22,7 +22,7 @@ addChangesFrom: oldDefinition to: newDefinition into: results
 				detect: [ :new | old = new ]
 				ifNone: [ results
 						add:
-							(ShClasspoolRemoved new
+							(ShFClasspoolRemoved new
 								entryName: old;
 								oldClass: oldDefinition;
 								newClass: newDefinition;

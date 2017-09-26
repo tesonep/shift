@@ -7,7 +7,7 @@ detectSlotTypeChangeOnOld: oldSlots new: newSlots into: results side: side
 				ifFound: [ :old | 
 					results
 						add:
-							(ShSlotTypeChanged new
+							(ShFSlotTypeChanged new
 								slotName: new name;
 								oldSlotType: old slotType;
 								slotSide: side;

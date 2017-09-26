@@ -6,7 +6,7 @@ detectAddedSlotsOnOld: oldSlots new: newSlots into: results side: side
 				detect: [ :old | old name = new name ]
 				ifNone: [ results
 						add:
-							(ShSlotAdded new
+							(ShFSlotAdded new
 								slotName: new name;
 								slotType: #InstanceVariableSlot;
 								slotSide: side;

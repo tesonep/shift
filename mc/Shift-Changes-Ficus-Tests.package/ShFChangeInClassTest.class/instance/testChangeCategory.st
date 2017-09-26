@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testChangeCategory
 	| old new categoryChange |
 	old := self shFTestClassA.
@@ -6,7 +6,7 @@ testChangeCategory
 	results := old compareTo: new.
 
 	categoryChange := results
-		detect: [ :e | e class = ShCommentChange ]
+		detect: [ :e | e class = ShFCategoryChange ]
 		ifNone: [ self fail: 'It should have detected the change in the category' ].
 
 	self assert: categoryChange oldValue equals: #'Shift-Changes-Ficus-Tests-TestClasses'.
