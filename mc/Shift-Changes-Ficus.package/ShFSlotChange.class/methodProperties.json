@@ -1,0 +1,12 @@
+{
+	"instance" : {
+		"slotSide" : "PabloTesone 9/26/2017 14:38:13",
+		"detectAddedSlotsOnOld:new:into:side:" : "PabloTesone 9/26/2017 17:08",
+		"detectRemovedSlotsOnOld:new:into:side:" : "PabloTesone 9/26/2017 17:08",
+		"slotSide:" : "PabloTesone 9/26/2017 14:38:13",
+		"detectSlotTypeChangeOnOld:new:into:side:" : "PabloTesone 9/26/2017 17:09",
+		"addChangesFrom:to:into:" : "PabloTesone 9/26/2017 14:38:13",
+		"detectSlotChangeFrom:to:into:side:" : "PabloTesone 9/26/2017 14:38:13"
+	},
+	"class" : { }
+}
