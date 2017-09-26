@@ -1,3 +1,3 @@
 comparing
-compareClass: oldClass with: builder
+compareClass
 	^ self subclassResponsibility 

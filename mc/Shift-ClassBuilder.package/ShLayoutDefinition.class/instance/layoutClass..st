@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 layoutClass: anObject
 	layoutClass := anObject

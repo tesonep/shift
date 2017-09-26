@@ -7,7 +7,8 @@ make: aBlock
 	
 	aBlock value: builder.
 
-	oldClass := builder environment at: (builder name) ifAbsent:[].
+	oldClass ifNil:[
+		oldClass := builder environment at: (builder name) ifAbsent:[nil]].
 	builder oldClass: oldClass.
 
 	newClass := builder build.
@@ -19,10 +20,10 @@ make: aBlock
 	
 	builder builderEnhancer beforeMigratingClass: builder installer: self.
 	
-	oldClass ifNotNil:[
-		self migrateClassTo:newClass].
+	self migrateClassTo:newClass.
 	
-	self recategorize: newClass  to: builder category.
+	self recategorize: newClass to: builder category.
+	self comment: newClass.
 	
 	newClass subclasses do:[:e | self remake: e ].
 	

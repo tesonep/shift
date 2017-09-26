@@ -1,4 +1,4 @@
-as yet unclassified
+installing
 createClass
 	newClass := newMetaclass new.
 	newClass setName: self name.

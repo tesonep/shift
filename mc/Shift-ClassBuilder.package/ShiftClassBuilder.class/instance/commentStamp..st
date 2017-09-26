@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 commentStamp: anObject
 	commentStamp := anObject

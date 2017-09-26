@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 isBits
 	^ self layoutType new isBits.

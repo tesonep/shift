@@ -1,3 +1,3 @@
-as yet unclassified
+compiling
 compileMethods
 	newClass compileAllFrom: self oldClass.

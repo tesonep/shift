@@ -1,3 +1,3 @@
-as yet unclassified
+initialize-release
 slots: aSlotCollection
 	self layoutDefinition slots: aSlotCollection.

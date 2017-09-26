@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 slots: anObject
 	slots := anObject

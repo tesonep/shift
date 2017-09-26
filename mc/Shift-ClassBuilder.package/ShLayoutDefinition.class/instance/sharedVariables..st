@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 sharedVariables: anObject
 	sharedVariables := anObject

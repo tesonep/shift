@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 sharedPools: anObject
 	sharedPools := anObject

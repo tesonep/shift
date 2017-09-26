@@ -7,6 +7,6 @@ recategorize: aClass to: newCategory
 
 	builder environment organization ifNotNil: [ :e | e classify: aClass name under: newCategory ].
 
-	oldCategory
-		ifNil: [ SystemAnnouncer uniqueInstance classAdded: aClass inCategory: newCategory ]
-		ifNotNil: [ SystemAnnouncer uniqueInstance class: aClass recategorizedFrom: oldCategory to: newCategory ]
+	(oldCategory isNil or:[ oldCategory = #Unclassified])
+		ifTrue: [ SystemAnnouncer uniqueInstance classAdded: aClass inCategory: newCategory ]
+		ifFalse: [ SystemAnnouncer uniqueInstance class: aClass recategorizedFrom: oldCategory to: newCategory ]

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 name: anObject
 	name := anObject.
 	self validateClassName.

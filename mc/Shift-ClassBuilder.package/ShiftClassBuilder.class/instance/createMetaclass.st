@@ -1,4 +1,4 @@
-as yet unclassified
+building
 createMetaclass
 	newMetaclass := self metaclassClass new.
 	

@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 superclass
 	^ superclass ifNil:[buildEnvironment classNamed: (self superclassName)]

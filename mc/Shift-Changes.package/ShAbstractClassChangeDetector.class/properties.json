@@ -12,6 +12,6 @@
 		"classAccessor",
 		"comparer"
 	],
-	"name" : "ShAbstractSingleChange",
+	"name" : "ShAbstractClassChangeDetector",
 	"type" : "normal"
 }

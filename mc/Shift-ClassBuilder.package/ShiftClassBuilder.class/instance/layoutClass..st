@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 layoutClass: aLayoutClass
 	self layoutDefinition layoutClass: aLayoutClass name.

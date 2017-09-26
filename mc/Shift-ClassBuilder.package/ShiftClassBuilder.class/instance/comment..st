@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 comment: anObject
 	comment := anObject

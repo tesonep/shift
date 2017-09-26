@@ -11,6 +11,12 @@ initialize
 	extensibleProperties := Dictionary new.
 	
 	changeComparers := OrderedCollection new.
-	changes := OrderedCollection new.
-		
+	changes := Set new.
+	
+	self addChangeComparer: ShSharedPoolChangeDetector.
+	self addChangeComparer: ShSharedVariablesChangeDetector.
+	self addChangeComparer: ShSlotChangeDetector.
+	self addChangeComparer: ShLayoutChangeDetector.
+	self addChangeComparer: ShBitLayoutChangeDetector.
+	
 	builderEnhancer initializeBuilder: self.

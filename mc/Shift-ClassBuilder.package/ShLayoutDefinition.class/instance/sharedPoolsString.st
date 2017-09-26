@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 sharedPoolsString
 	^ self sharedPools joinUsing: Character space.

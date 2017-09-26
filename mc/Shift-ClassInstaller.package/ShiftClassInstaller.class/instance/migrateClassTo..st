@@ -1,7 +1,7 @@
 as yet unclassified
 migrateClassTo: newClass
 	| slotsToMigrate |
-	self assert: oldClass isNotNil.
+	oldClass ifNil:[^ self].
 	self assert: newClass isNotNil.
 	
 	oldClass 	superclass removeSubclass: oldClass.

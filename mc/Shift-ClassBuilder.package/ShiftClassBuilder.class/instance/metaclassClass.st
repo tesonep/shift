@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 metaclassClass
 	^ metaclassClass ifNil: [ Metaclass ]

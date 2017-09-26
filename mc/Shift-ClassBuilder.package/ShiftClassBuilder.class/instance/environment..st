@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 environment: anEnvironment
 	^ buildEnvironment environment: anEnvironment

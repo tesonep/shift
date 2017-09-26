@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 propertyAt: aKey 
 	^ extensibleProperties at: aKey.

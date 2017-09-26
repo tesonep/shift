@@ -1,3 +1,3 @@
-as yet unclassified
+testing
 hasClassNamed: aName
 	^ environment hasClassNamed: aName
