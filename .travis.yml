@@ -18,5 +18,5 @@ before_script:
   - ./scripts/test-tokyodb.sh
 
 script:
-  - ./pharo atomicPharoInstaller.image test --no-xterm --fail-on-failure "AtomicClassInstaller-Tests" "Slot-Tests" "Shift-Changes-Tests" "Shift-ClassBuilder-Tests"
+  - ./pharo atomicPharoInstaller.image test --no-xterm --fail-on-failure "AtomicClassInstaller-Tests" "Shift-ClassBuilder-Tests" "Slot-Tests" "Shift-Changes-Tests" "Shift-Changes-Ficus-Tests"
 
