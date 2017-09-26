@@ -1,5 +1,7 @@
 building
-build
+build	
+	self tryToFillOldClass.
+
 	self createMetaclass.
 	self createClass.
 
@@ -7,10 +9,8 @@ build
 
 	self createSharedVariables.
 
-	(buildEnvironment hasClassNamed: self name)
-		ifTrue: [ oldClass := buildEnvironment classNamed: self name.
-			oldMetaclass := oldClass class.
-			newClass basicCategory: oldClass basicCategory.
+	self oldClass ifNotNil: [ 
+			self newClass basicCategory: self oldClass basicCategory.
 			builderEnhancer compileMethodsFor: self. ].
 
 	builderEnhancer afterMethodsCompiled: self.

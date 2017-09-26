@@ -1,3 +1,3 @@
 compiling
 compileMethods
-	newClass compileAllFrom: oldClass.
+	newClass compileAllFrom: self oldClass.

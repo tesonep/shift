@@ -10,7 +10,8 @@
 		"slots",
 		"classSlots",
 		"sharedPools",
-		"sharedVariables"
+		"sharedVariables",
+		"builder"
 	],
 	"name" : "ShLayoutDefinition",
 	"type" : "normal"

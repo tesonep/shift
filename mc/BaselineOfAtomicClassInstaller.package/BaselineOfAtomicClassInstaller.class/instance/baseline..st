@@ -15,19 +15,23 @@ baseline: spec
 			spec package: 'AtomicClassInstaller'.
 			spec package: 'AtomicClassInstaller-Tests' with:[ spec requires: #core ].	
 			spec package: 'AtomicClassInstaller-UI' with:[spec requires: #core].
-			spec package: 'Shift-Changes' with:[spec requires: #'Ficus'].
 			spec package: 'Shift-ClassBuilder'.
 			spec package: 'Shift-ClassInstaller'.
+
+			spec package: 'Shift-Changes' with:[spec requires: #'shift-core'].
 			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
+
+			spec package: 'Shift-Changes-Ficus' with:[spec requires: #'Ficus'].
+			spec package: 'Shift-Changes-Ficus-Tests' with:[spec requires: #'shift-core'].
+
 			spec package: 'Shift-ClassBuilder-Tests' with:[spec requires: #'shift-core'].
 			spec package: 'Shift-ClassInstaller-Tests' with:[spec requires: #'shift-core'].
 
 			spec
-				group: 'shift-installer' with: #('Shift-ClassBuilder' 'Shift-ClassInstaller');
-				group: 'shift-core' with: #('Shift-Changes' 'shift-installer');
+				group: 'shift-core' with: #('Shift-Changes' 'Shift-ClassBuilder' 'Shift-ClassInstaller');
 				group: 'core' with: #(AtomicClassInstaller 'shift-core');
 				group: 'dev' with: #('core' 'tests' 'ui');
-				group: 'ui' with: #('AtomicClassInstaller-UI');
-				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests' 'Shift-ClassInstaller-Tests');
+				group: 'ui' with: #('AtomicClassInstaller-UI'); 
+				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests' 'Shift-ClassInstaller-Tests' 'Shift-Changes-Ficus-Tests');
 				group: 'tests' with: #('AtomicClassInstaller-Tests' 'shift-tests')				
 			]

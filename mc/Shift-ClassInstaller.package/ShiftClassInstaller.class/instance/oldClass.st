@@ -1,3 +1,3 @@
 as yet unclassified
-slots
-	^ slots
+oldClass
+	^ oldClass

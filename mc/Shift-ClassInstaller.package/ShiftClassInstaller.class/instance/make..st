@@ -1,25 +1,28 @@
 building
 make: aBlock
-	| newClass oldClass builder |
-	
+	| newClass |
+		
 	builder := ShiftClassBuilder new.
 	builder buildEnvironment: ShSmalltalkGlobalsEnvironment new.	
 	
 	aBlock value: builder.
-	newClass := builder build.
-	
+
 	oldClass := builder environment at: (builder name) ifAbsent:[].
-		
+	builder oldClass: oldClass.
+
+	newClass := builder build.
+
 	builder environment at: (builder name) put: newClass.
+	self updateBindings: (builder environment associationAt: (builder name)) of:newClass.
 	
 	newClass superclass addSubclass: newClass.
 	
 	builder builderEnhancer beforeMigratingClass: builder installer: self.
 	
 	oldClass ifNotNil:[
-		self migrateClassFrom:oldClass to:newClass].
+		self migrateClassTo:newClass].
 	
-	self recategorize: newClass  to: builder category builder: builder.
+	self recategorize: newClass  to: builder category.
 	
 	newClass subclasses do:[:e | self remake: e ].
 	

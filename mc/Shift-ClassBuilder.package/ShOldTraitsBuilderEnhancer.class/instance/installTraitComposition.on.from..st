@@ -8,4 +8,4 @@ installTraitComposition: anObject on: aClass from: anOldClass
 
 	aClass traitComposition: aTraitComposition.
 
-	aTraitComposition allSelectors do:[:e | aClass updateMethodDictionarySelector: e].
+	aClass applyChangesOfNewTraitCompositionReplacing: oldComposition.
