@@ -1,4 +1,4 @@
 initialization
 initialize
 	super initialize.
-	comparer := #=.
+	comparer := [:a :b | a = b ].

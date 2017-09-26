@@ -20,7 +20,9 @@
 		"oldMetaclass",
 		"builderEnhancer",
 		"metaclassClass",
-		"extensibleProperties"
+		"extensibleProperties",
+		"changeComparers",
+		"changes"
 	],
 	"name" : "ShiftClassBuilder",
 	"type" : "normal"

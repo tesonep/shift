@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ShAbstractChange",
+	"super" : "ShAbstractChangeDetector",
 	"category" : "Shift-Changes",
 	"classinstvars" : [ ],
 	"pools" : [ ],

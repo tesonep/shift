@@ -1,4 +1,4 @@
-copying
+as yet unclassified
 copyClassSlotsFromExistingClass
 	"Ugly helper method: I copy over the class slots of the class in my builder environment."
 

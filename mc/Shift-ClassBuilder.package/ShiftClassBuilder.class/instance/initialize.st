@@ -10,4 +10,7 @@ initialize
 
 	extensibleProperties := Dictionary new.
 	
+	changeComparers := OrderedCollection new.
+	changes := OrderedCollection new.
+		
 	builderEnhancer initializeBuilder: self.

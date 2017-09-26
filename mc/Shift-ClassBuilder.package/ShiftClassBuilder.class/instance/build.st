@@ -1,11 +1,16 @@
 building
 build	
 	self tryToFillOldClass.
+	
+	self compareWithOldClass.
 
 	self createMetaclass.
 	self createClass.
 
-	self comment ifNotNil: [ newClass classComment: self comment stamp: self commentStamp ].
+	"I should only comment the class if the new comment is different than the old comment."
+	self comment ifNotNil: [ 
+		(oldClass isNil or: [oldClass comment ~= self comment])
+		ifTrue:[newClass classComment: self comment stamp: self commentStamp] ].
 
 	self createSharedVariables.
 

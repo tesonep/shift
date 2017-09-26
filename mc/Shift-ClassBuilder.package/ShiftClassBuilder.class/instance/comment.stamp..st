@@ -1,4 +1,4 @@
-accessing comment
+as yet unclassified
 comment:aComment stamp: anStamp
 	self comment: aComment.
 	self commentStamp: anStamp.

@@ -1,4 +1,4 @@
-reflective operations
+as yet unclassified
 doesNotUnderstand: aMessage
 	| selector variable setter|
 		

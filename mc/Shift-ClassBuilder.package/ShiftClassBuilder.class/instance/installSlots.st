@@ -1,4 +1,4 @@
-building
+as yet unclassified
 installSlots
 	newClass classLayout slots
 		do: [ :each | each installingIn: newClass ].

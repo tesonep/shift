@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 fillFor: aClass
 	self
 		superclass: aClass superclass;

@@ -1,4 +1,4 @@
-private validating
+as yet unclassified
 validateClassName
 	name ifNil: [ ^self ].
 	

@@ -26,4 +26,6 @@ make: aBlock
 	
 	newClass subclasses do:[:e | self remake: e ].
 	
+	builder notifyChanges.
+	
 	^ newClass.
