@@ -3,6 +3,7 @@ language: c
 addons:
   apt:
     packages:
+	  - libcairo:i386
       - libasound2:i386
       - libz1:i386
       - libbz2-1.0:i386
