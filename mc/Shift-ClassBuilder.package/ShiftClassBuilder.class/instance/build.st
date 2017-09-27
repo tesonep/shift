@@ -5,6 +5,8 @@ build
 	self validateSuperclass.
 	self compareWithOldClass.
 
+	self layoutDefinition copySlotsIfUsedIn: oldClass.
+
 	self createMetaclass.
 	self createClass.
 

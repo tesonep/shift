@@ -2,6 +2,9 @@ private validating
 validateClassName
 	name ifNil: [ ^self ].
 	
+	"I try to convert to symbol, if there is an error the next guard will catch it"
+	[name := name asSymbol ] on:Error do: [  ].
+	
 	name isSymbol ifFalse:[InvalidGlobalName 
 				signal: 'Global names should be symbols' 
 				for: name].
