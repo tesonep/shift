@@ -17,4 +17,5 @@ migrateClassTo: newClass
 	 
 	self migrateInstancesTo: newClass.
 	
-	oldClass becomeForward: newClass copyHash: false
+	oldClass becomeForward: newClass copyHash: false.
+	builder oldMetaclass becomeForward: builder newMetaclass copyHash: false
