@@ -1,3 +1,3 @@
 accessing
 builder: anObject
-	builder := anObject
+	builder := anObject.

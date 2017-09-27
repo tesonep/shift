@@ -18,5 +18,6 @@ initialize
 	self addChangeComparer: ShSlotChangeDetector.
 	self addChangeComparer: ShLayoutChangeDetector.
 	self addChangeComparer: ShBitLayoutChangeDetector.
+	self addChangeComparer: ShClassSlotChangeDetector.
 	
 	builderEnhancer initializeBuilder: self.
