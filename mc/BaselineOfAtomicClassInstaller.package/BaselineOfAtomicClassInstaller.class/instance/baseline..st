@@ -32,6 +32,7 @@ baseline: spec
 				group: 'core' with: #(AtomicClassInstaller 'shift-core');
 				group: 'dev' with: #('core' 'tests' 'ui');
 				group: 'ui' with: #('AtomicClassInstaller-UI'); 
-				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests' 'Shift-ClassInstaller-Tests' 'Shift-Changes-Ficus-Tests');
-				group: 'tests' with: #('AtomicClassInstaller-Tests' 'shift-tests')				
+				group: 'shift-tests' with: #('Shift-Changes-Tests' 'Shift-ClassBuilder-Tests' 'Shift-ClassInstaller-Tests');
+				group: 'shift-ficus-tests' with: #('Shift-Changes-Ficus-Tests'); 
+				group: 'tests' with: #('AtomicClassInstaller-Tests' 'shift-tests' 'shift-ficus-tests')				
 			]

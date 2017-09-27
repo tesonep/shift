@@ -19,4 +19,5 @@ before_script:
 
 script:
   - ./pharo atomicPharoInstaller.image test --no-xterm --fail-on-failure "AtomicClassInstaller-Tests" "Shift-ClassBuilder-Tests" "Slot-Tests" "Shift-Changes-Tests" "Shift-Changes-Ficus-Tests"
+  - ./pharo shiftClassInstaller.image test --no-xterm "*"
 
