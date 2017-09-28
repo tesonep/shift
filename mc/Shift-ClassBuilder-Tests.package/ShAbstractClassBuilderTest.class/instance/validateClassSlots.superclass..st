@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 validateClassSlots: addedSlots superclass: aSuperClass
 	| resultSlots allSlots |
 	resultSlots := result class allSlots.

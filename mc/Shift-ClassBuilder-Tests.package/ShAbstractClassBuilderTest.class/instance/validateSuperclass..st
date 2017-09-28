@@ -1,3 +1,3 @@
-as yet unclassified
+private validating
 validateSuperclass: aSuperclass
 	self assert: result superclass == aSuperclass.

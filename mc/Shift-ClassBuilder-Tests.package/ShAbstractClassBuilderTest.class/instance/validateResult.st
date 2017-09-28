@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 validateResult
 	| obj |
 	self assert: result isClass.

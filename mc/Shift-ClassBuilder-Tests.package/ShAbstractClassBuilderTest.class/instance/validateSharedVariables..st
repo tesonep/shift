@@ -1,4 +1,4 @@
-as yet unclassified
+validation
 validateSharedVariables: allVariables
 	| resultVariables |
 	resultVariables  := result classPool keys.

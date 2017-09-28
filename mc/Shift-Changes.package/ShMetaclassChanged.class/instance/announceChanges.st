@@ -1,3 +1,3 @@
 announcing
 announceChanges
-	SystemAnnouncer uniqueInstance classDefinitionChangedFrom: builder oldMetaclass to: builder newMetaclass.
+	SystemAnnouncer uniqueInstance classDefinitionChangedFrom: oldClass class to: builder newMetaclass.

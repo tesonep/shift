@@ -19,7 +19,7 @@ make: aBlock
 	newClass superclass addSubclass: newClass.
 	
 	builder builderEnhancer beforeMigratingClass: builder installer: self.
-	
+		
 	self migrateClassTo:newClass.
 	
 	self recategorize: newClass to: builder category.
@@ -27,6 +27,6 @@ make: aBlock
 	
 	newClass subclasses do:[:e | self remake: e ].
 	
-	builder notifyChanges.
-	
+	builder notifyChanges.	
+		
 	^ newClass.
