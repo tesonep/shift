@@ -14,7 +14,7 @@ migrateClassTo: newClass
 	oldClass classVarNames do: [ :aClassVar |
 		(newClass hasClassVarNamed: aClassVar) ifTrue:[ newClass classVarNamed: aClassVar put: (oldClass classVarNamed: aClassVar) ].
 	].
-	 
+	 	
 	(self builder changes anySatisfy: [ :e | e hasToMigrateInstances ]) ifTrue: [self migrateInstancesTo: newClass].
 	
 	oldClass becomeForward: newClass copyHash: true.
