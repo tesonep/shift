@@ -16,6 +16,8 @@ make: aBlock
 
 	self migrateClassTo: newClass.
 
+	builder builderEnhancer afterMigratingClass: builder installer: self.	
+
 	self recategorize: newClass to: builder category.
 	self comment: newClass.
 
