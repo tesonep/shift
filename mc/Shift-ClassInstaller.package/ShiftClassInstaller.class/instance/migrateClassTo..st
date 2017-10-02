@@ -17,5 +17,5 @@ migrateClassTo: newClass
 	 
 	(self builder changes anySatisfy: [ :e | e hasToMigrateInstances ]) ifTrue: [self migrateInstancesTo: newClass].
 	
-	oldClass becomeForward: newClass copyHash: false.
-	builder oldMetaclass becomeForward: builder newMetaclass copyHash: false
+	oldClass becomeForward: newClass copyHash: true.
+	builder oldMetaclass becomeForward: builder newMetaclass copyHash: true
