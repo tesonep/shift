@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ShAbstractInstanceSideClassChangeDetector",
+	"category" : "Shift-Changes",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ShLayoutChangeDetector",
+	"type" : "normal"
+}
