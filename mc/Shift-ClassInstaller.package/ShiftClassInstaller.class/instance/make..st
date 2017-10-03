@@ -9,7 +9,10 @@ make: aBlock
 	builder oldClass: oldClass.
 	newClass := builder build.
 
-	self installInEnvironment: newClass.
+	"I only install in the environment if there is not oldClass to be migrated."
+	oldClass ifNil:[
+		self installInEnvironment: newClass.
+	].
 
 	newClass superclass addSubclass: newClass.
 	builder builderEnhancer beforeMigratingClass: builder installer: self.
