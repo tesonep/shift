@@ -26,7 +26,8 @@
 		"alreadyCommited",
 		"newRPackageOrganizer",
 		"oldRPackageOrganizer",
-		"storedAnnouncements"
+		"storedAnnouncements",
+		"removedClasses"
 	],
 	"name" : "AtomicClassInstaller",
 	"type" : "normal"

@@ -65,6 +65,8 @@ doCommit
 		CompiledMethod allInstancesDo: #flushCache.
 				
 		oldObjects asArray elementsForwardIdentityTo: newObjects asArray copyHash: true.
+
+		removedClasses do: [ :e | e removeFromSystem ].
 		 		
 	] valueUnpreemptively.
 

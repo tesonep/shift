@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testCreatePatch
 	| mcVersion patch firstOperation |
 	mcVersion := mcRepo versionFrom: self targetVersion.
