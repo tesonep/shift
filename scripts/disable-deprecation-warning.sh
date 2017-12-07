@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-./pharo atomicPharoInstaller.image eval --save "
+./pharo shiftClassInstaller.image eval --save "
 Deprecation showWarning: false.
 Deprecation raiseWarning: false.
 "
