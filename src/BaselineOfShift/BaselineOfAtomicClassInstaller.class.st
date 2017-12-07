@@ -22,13 +22,13 @@ BaselineOfShift >> baseline: spec [
 			spec package: 'Shift-ClassInstaller'.
 
 			spec package: 'Shift-Changes'.
-			spec package: 'Shift-Changes-Tests' with:[spec requires: #'shift-core'].
+			spec package: 'Shift-Changes-Tests' with:[spec requires: #'core'].
 
 			spec package: 'Shift-Changes-Ficus' with:[spec requires: #'Ficus'].
-			spec package: 'Shift-Changes-Ficus-Tests' with:[spec requires: #('shift-core' 'Shift-Changes-Ficus')].
+			spec package: 'Shift-Changes-Ficus-Tests' with:[spec requires: #('core' 'Shift-Changes-Ficus')].
 
-			spec package: 'Shift-ClassBuilder-Tests' with:[spec requires: #'shift-core'].
-			spec package: 'Shift-ClassInstaller-Tests' with:[spec requires: #'shift-core'].
+			spec package: 'Shift-ClassBuilder-Tests' with:[spec requires: #'core'].
+			spec package: 'Shift-ClassInstaller-Tests' with:[spec requires: #'core'].
 
 			spec
 				group: 'core' with: #('Shift-Changes' 'Shift-ClassBuilder' 'Shift-ClassInstaller');
