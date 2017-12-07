@@ -13,3 +13,8 @@ Class {
 ShInstanceShapeChanged >> hasToMigrateInstances [
 	^ true.
 ]
+
+{ #category : #testing }
+ShInstanceShapeChanged >> propagateToSubclasses: anotherBuilder [
+	anotherBuilder changes add: self.
+]
