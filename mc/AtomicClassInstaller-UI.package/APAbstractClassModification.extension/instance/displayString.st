@@ -1,3 +1,0 @@
-*AtomicClassInstaller-UI
-displayString
-	^ definedClassName

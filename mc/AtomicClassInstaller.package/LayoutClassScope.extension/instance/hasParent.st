@@ -1,3 +1,0 @@
-*AtomicClassInstaller
-hasParent
-	^ true.

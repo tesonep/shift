@@ -1,3 +1,0 @@
-accessing
-modifiedClasses
-	^ { definedClassName }

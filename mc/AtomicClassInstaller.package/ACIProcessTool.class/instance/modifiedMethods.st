@@ -1,3 +1,0 @@
-accessing
-modifiedMethods
-	^ modifiedMethods

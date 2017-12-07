@@ -1,3 +1,0 @@
-accessing
-postScript
-	^ postScript

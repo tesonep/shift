@@ -1,3 +1,0 @@
-actions
-impact
-	^ self subclassResponsibility.
