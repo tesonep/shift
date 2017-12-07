@@ -1,3 +1,0 @@
-accessing
-receivedAnnouncements
-	^ receivedAnnouncements

@@ -1,3 +1,0 @@
-*AtomicClassInstaller
-environment
-	^ Smalltalk globals.

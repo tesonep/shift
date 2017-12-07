@@ -1,3 +1,0 @@
-operations
-numberOfOperations 
-	^ operations size.

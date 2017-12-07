@@ -1,3 +1,0 @@
-operations
-oldEnvironment
-	^ Smalltalk globals
