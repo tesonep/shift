@@ -17,5 +17,4 @@ install:
 
 script:
   - ./pharo shiftClassInstaller.image test --no-xterm --fail-on-failure "Shift-ClassBuilder-Tests" "Shift-Changes-Tests" "Shift-Changes-Ficus-Tests" "Slot-Tests"
-  - ./pharo shiftClassInstaller.image test --no-xterm "*"
 
