@@ -4,28 +4,10 @@ set -ex
 
 ./pharo Pharo.image eval "
 
-EpMonitor current disable.
-
 Metacello new 
-	baseline: 'AtomicClassInstaller';
-	repository: 'filetree://./mc';
-	load.
-
-EpMonitor current enable.
-
-Smalltalk saveAs:'atomicPharoInstaller'.
-"
-
-./pharo Pharo.image eval "
-
-EpMonitor current disable.
-
-Metacello new 
-	baseline: 'AtomicClassInstaller';
-	repository: 'filetree://./mc';
-	load: 'shift-tests'.
-
-EpMonitor current enable.
+	baseline: 'Shift';
+	repository: 'tonel://src';
+	load: 'dev'.
 
 Smalltalk saveAs:'shiftClassInstaller'.
 "

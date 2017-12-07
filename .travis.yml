@@ -15,10 +15,7 @@ install:
   - ./scripts/install-packages.sh
   - ./scripts/disable-deprecation-warning.sh 
 
-before_script:
-  - ./scripts/test-tokyodb.sh
-
 script:
-  - ./pharo atomicPharoInstaller.image test --no-xterm --fail-on-failure "AtomicClassInstaller-Tests" "Shift-ClassBuilder-Tests" "Slot-Tests" "Shift-Changes-Tests" "Shift-Changes-Ficus-Tests"
+  - ./pharo shiftClassInstaller.image test --no-xterm --fail-on-failure "Shift-ClassBuilder-Tests" "Shift-Changes-Tests" "Shift-Changes-Ficus-Tests" "Slot-Tests"
   - ./pharo shiftClassInstaller.image test --no-xterm "*"
 
