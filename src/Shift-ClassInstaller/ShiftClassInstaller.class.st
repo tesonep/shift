@@ -23,9 +23,10 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'oldClass',
-		'builder'
+		'builder',
+		'installingEnvironment'
 	],
-	#category : 'Shift-ClassInstaller'
+	#category : #'Shift-ClassInstaller'
 }
 
 { #category : #example }
@@ -94,24 +95,31 @@ ShiftClassInstaller >> initialize [
 { #category : #building }
 ShiftClassInstaller >> installInEnvironment: newClass [
 	"I only install in the environment if there is not oldClass installed."
-	(builder environment includesKey: builder name) ifFalse:[
-		builder environment at: builder name put: newClass
+	(self installingEnvironment hasClassNamed: builder name) ifFalse:[
+		self installingEnvironment installClass: newClass withName: builder name.
 	].
 
 	self
-		updateBindings: (builder environment associationAt: builder name)
+		updateBindings: (self installingEnvironment bindingAt: builder name)
 		of: newClass
 ]
 
 { #category : #building }
-ShiftClassInstaller >> installSubclassInSuperclass: newClass [
-	newClass superclass addSubclass: newClass
+ShiftClassInstaller >> installingEnvironment [
+
+	^ installingEnvironment ifNil: [ builder buildEnvironment ]
+]
+
+{ #category : #building }
+ShiftClassInstaller >> installingEnvironment: anEnvironment [
+
+	installingEnvironment := anEnvironment
 ]
 
 { #category : #building }
 ShiftClassInstaller >> lookupOldClass [
 	oldClass
-		ifNil: [ oldClass := builder environment at: builder name ifAbsent: [ nil ] ]
+		ifNil: [ oldClass := self installingEnvironment classNamed: builder name ifAbsent: [ nil ] ]
 ]
 
 { #category : #building }
@@ -207,7 +215,8 @@ ShiftClassInstaller >> recategorize: aClass to: newCategory [
 	oldCategory == newCategory asSymbol
 		ifTrue: [ ^ self ].
 
-	builder environment organization ifNotNil: [ :e | e classify: aClass name under: newCategory ].
+	self installingEnvironment organization
+		ifNotNil: [ :e | e classify: aClass name under: newCategory ].
 
 	(oldCategory isNil or:[ oldCategory = #Unclassified])
 		ifTrue: [ SystemAnnouncer uniqueInstance classAdded: aClass inCategory: newCategory ]
@@ -216,10 +225,14 @@ ShiftClassInstaller >> recategorize: aClass to: newCategory [
 
 { #category : #building }
 ShiftClassInstaller >> remake: aClass [
-	self class update: aClass to: [ :anotherBuilder | 
-		anotherBuilder fillFor: aClass.
-		builder propagateChangesTo: anotherBuilder.
-	]
+
+	self class new
+		oldClass: aClass;
+		installingEnvironment: self installingEnvironment;
+		make: [ :anotherBuilder | 
+			anotherBuilder fillFor: aClass.
+			anotherBuilder buildEnvironment: builder buildEnvironment.
+			builder propagateChangesTo: anotherBuilder ]
 ]
 
 { #category : #building }

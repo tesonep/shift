@@ -7,7 +7,7 @@ Also I can configure the builder to add more comparers or do additional things.
 Class {
 	#name : #ShDefaultBuilderEnhancer,
 	#superclass : #Object,
-	#category : 'Shift-ClassBuilder'
+	#category : #'Shift-ClassBuilder'
 }
 
 { #category : #'class modifications' }
