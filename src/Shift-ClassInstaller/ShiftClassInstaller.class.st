@@ -29,7 +29,7 @@ Class {
 	#category : #'Shift-ClassInstaller'
 }
 
-{ #category : #example }
+{ #category : #examples }
 ShiftClassInstaller class >> example [
 	^ Smalltalk classInstaller make: [ :aSlotClassBuilder |
 		aSlotClassBuilder
@@ -51,7 +51,7 @@ ShiftClassInstaller class >> update: oldClass to: aBlock [
 		make:aBlock
 ]
 
-{ #category : #testing }
+{ #category : #validating }
 ShiftClassInstaller class >> validateClassName: aString [ 
 	ShiftClassBuilder new name: aString.
 ]
@@ -102,6 +102,11 @@ ShiftClassInstaller >> installInEnvironment: newClass [
 	self
 		updateBindings: (self installingEnvironment bindingAt: builder name)
 		of: newClass
+]
+
+{ #category : #building }
+ShiftClassInstaller >> installSubclassInSuperclass: newClass [
+       newClass superclass addSubclass: newClass
 ]
 
 { #category : #building }
