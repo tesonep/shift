@@ -16,5 +16,5 @@ install:
   - ./scripts/disable-deprecation-warning.sh 
 
 script:
-  - ./pharo shiftClassInstaller.image test --no-xterm --fail-on-failure "Shift-ClassBuilder-Tests" "Shift-Changes-Tests" "Shift-Changes-Ficus-Tests" "Slot-Tests"
+  - ./pharo shiftClassInstaller.image test --no-xterm --fail-on-failure "Shift-ClassBuilder-Tests" "Shift-ClassInstaller-Tests" "Shift-Changes-Tests" "Shift-Changes-Ficus-Tests" "Slot-Tests"
 
