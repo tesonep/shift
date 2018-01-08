@@ -12,7 +12,7 @@ Class {
 		'sharedVariables',
 		'builder'
 	],
-	#category : #'Shift-ClassBuilder'
+	#category : 'Shift-ClassBuilder'
 }
 
 { #category : #accessing }
@@ -34,6 +34,8 @@ ShLayoutDefinition >> classSlots: anObject [
 ShLayoutDefinition >> copy: slotCollection ifUsedIn: aClass [
 	"I only copy the slot if it is not virtual and it is the same in the oldClass. 
 	 They are copied as they have the index as instance variable, the index can change in the new class."
+	
+	aClass slots isEmpty ifTrue: [ ^ slotCollection ].
 	
 	^ slotCollection
 		collect: [ :aSlot | 

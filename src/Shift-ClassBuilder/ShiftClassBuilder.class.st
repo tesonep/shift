@@ -31,7 +31,7 @@ Class {
 		'changeComparers',
 		'changes'
 	],
-	#category : #'Shift-ClassBuilder'
+	#category : 'Shift-ClassBuilder'
 }
 
 { #category : #'as yet unclassified' }
