@@ -4,8 +4,13 @@ I extend the ShiftClassBuilder to have the old implementation of traits
 Class {
 	#name : #ShOldTraitsBuilderEnhancer,
 	#superclass : #ShDefaultBuilderEnhancer,
-	#category : 'Shift-ClassBuilder'
+	#category : #'Shift-ClassBuilder-OldTraits'
 }
+
+{ #category : #'class initialization' }
+ShOldTraitsBuilderEnhancer class >> initialize [
+	ShiftClassBuilder setDefaultBuilderEnhancer: ShOldTraitsBuilderEnhancer
+]
 
 { #category : #'class modifications' }
 ShOldTraitsBuilderEnhancer >> afterMethodsCompiled: aBuilder [

@@ -31,12 +31,20 @@ Class {
 		'changeComparers',
 		'changes'
 	],
-	#category : 'Shift-ClassBuilder'
+	#classVars : [
+		'BuilderEnhancer'
+	],
+	#category : #'Shift-ClassBuilder'
 }
 
 { #category : #'as yet unclassified' }
 ShiftClassBuilder class >> defaultBuildEnhancer [
-	^ ShOldTraitsBuilderEnhancer
+	^ BuilderEnhancer ifNil: [ ShDefaultBuilderEnhancer ]
+]
+
+{ #category : #accessing }
+ShiftClassBuilder class >> setDefaultBuilderEnhancer: aClass [ 
+	BuilderEnhancer := aClass
 ]
 
 { #category : #changes }
